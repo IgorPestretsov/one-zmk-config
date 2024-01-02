@@ -189,10 +189,10 @@
             //                           | SHIFT/DEL | SPC | LWR/TAB |   | ADJ/ESC | RSE/ENT| SHIFT/BackSPACE |
 
             bindings = <
-&mt LG(LS(LA(LCTRL))) F12  &kp Q  &kp W  &kp E           &kp R      &kp T        &kp Y        &kp U        &kp I            &kp O    &kp P     &kp LBKT
-&mt LALT LC(GRAVE)         &kp A  &kp S  &kp D           &kp F      &kp G        &kp H        &kp J        &kp K            &kp L    &kp SEMI  &kp SQT
-&mt LCTRL RG(SPACE)        &kp Z  &kp X  &kp C           &kp V      &kp B        &kp N        &kp M        &kp COMMA        &kp DOT  &kp FSLH  &kp BSLH
-                                         &mt LSHIFT DEL  &kp SPACE  &lt LWR TAB  &lt ADJ ESC  &lt RSE RET  &mt RSHIFT BSPC
+&mt LG(LS(LA(LCTRL))) F12  &kp Q  &kp W  &kp E           &kp R      &kp T      &kp Y      &kp U      &kp I            &kp O    &kp P     &kp LBKT
+&mt LALT LC(GRAVE)         &kp A  &kp S  &kp D           &kp F      &kp G      &kp H      &kp J      &kp K            &kp L    &kp SEMI  &kp SQT
+&mt LCTRL RG(SPACE)        &kp Z  &kp X  &kp C           &kp V      &kp B      &kp N      &kp M      &kp COMMA        &kp DOT  &kp FSLH  &kp BSLH
+                                         &mt LSHIFT DEL  &kp SPACE  &lt 1 TAB  &lt 3 ESC  &lt 2 RET  &mt RSHIFT BSPC
             >;
         };
 
@@ -207,7 +207,7 @@
 &kp K_VOL_UP      &kp K_NEXT     &kp K_PREV     &kp INS        &kp PG_UP  &kp PG_DN  &kp LA(N1)   &kp N7  &kp N8    &kp N9  &none    &none
 &kp K_PLAY_PAUSE  &kp LC(KP_N1)  &kp LC(KP_N2)  &kp LC(KP_N3)  &td_49     &td_50     &kp LA(F11)  &kp N4  &kp N5    &kp N6  &kp DOT  &none
 &kp K_VOL_DN      &kp LC(KP_N6)  &none          &none          &none      &td_78     &kp LA(F12)  &kp N1  &kp N2    &kp N3  &kp N0   &none
-                                                &lt TCH TAB    &trans     &trans     &trans       &trans  &kp BSPC
+                                                &lt 4 TAB      &trans     &trans     &trans       &trans  &kp BSPC
             >;
         };
 
@@ -234,10 +234,10 @@
             //           | TRANS |  GUI   | ace_jump_pycharm |        | TRANS | TRANS  | TRANS |
 
             bindings = <
-&kp GRAVE  &none  &kp LC(RIGHT)  &none    &none     &kp RG(W)          &kp RG(LA(X))  &kp RG(LA(C))  &kp CAPS     &none      &vim_past_from_zero  &none
-&none      &none  &none          &none    &none     &none              &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT  &kp K_APP            &none
-&none      &none  &kp RG(X)      &none    &none     &kp LC(LEFT)       &kp LA(HOME)   &kp HOME       &kp END      &sk LALT   &none                &kp LS(LC(F12))
-                                 &kp DEL  &kp LGUI  &ace_jump_pycharm  &trans         &trans         &lt TCH TAB
+&kp GRAVE  &none  &kp LC(RIGHT)  &none    &none     &kp RG(W)          &kp RG(LA(X))  &kp RG(LA(C))  &kp CAPS   &none      &vim_past_from_zero  &tog 5
+&none      &none  &none          &none    &none     &none              &kp LEFT       &kp DOWN       &kp UP     &kp RIGHT  &kp K_APP            &none
+&none      &none  &kp RG(X)      &none    &none     &kp LC(LEFT)       &kp LA(HOME)   &kp HOME       &kp END    &sk LALT   &none                &kp LS(LC(F12))
+                                 &kp DEL  &kp LGUI  &ace_jump_pycharm  &trans         &trans         &lt 4 TAB
             >;
         };
 
@@ -248,6 +248,17 @@
 &sys_reset   &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &sys_reset
                                          &trans        &none         &trans        &none         &trans        &trans
             >;
+        };
+
+        game_layer {
+            bindings = <
+&kp TAB       &kp Q  &kp W  &kp E           &kp R      &kp T    &kp Y       &kp U      &kp I          &kp O       &kp P          &tog 5
+&kp LEFT_ALT  &kp A  &kp S  &kp D           &kp F      &kp G    &kp H       &kp J      &kp K          &kp L       &kp SEMICOLON  &trans
+&kp LCTRL     &kp Z  &kp X  &kp C           &kp V      &kp B    &kp N       &kp M      &kp COMMA      &kp PERIOD  &trans         &trans
+                            &kp LEFT_SHIFT  &kp SPACE  &kp TAB  &kp ESCAPE  &kp ENTER  &kp BACKSPACE
+            >;
+
+            label = "GM";
         };
     };
 };
