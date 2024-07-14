@@ -230,10 +230,10 @@
             //           | TRANS |  GUI   | ace_jump_pycharm |        | TRANS | TRANS  | TRANS |
 
             bindings = <
-&kp GRAVE  &none  &kp LC(RIGHT)  &none    &none     &kp RG(W)          &kp RG(LA(X))  &kp RG(LA(C))  &kp CAPS   &none      &vim_past_from_zero  &tog 5
-&none      &none  &none          &none    &none     &none              &kp LEFT       &kp DOWN       &kp UP     &kp RIGHT  &kp K_APP            &none
-&none      &none  &kp RG(X)      &none    &none     &kp LC(LEFT)       &kp LA(HOME)   &kp HOME       &kp END    &sk LALT   &none                &kp LS(LC(LA(O)))
-                                 &kp DEL  &kp LGUI  &ace_jump_pycharm  &trans         &trans         &lt 4 TAB
+&kp GRAVE  &none  &kp LC(RIGHT)  &none    &none     &kp RG(W)          &none     &none     &kp CAPS   &none      &vim_past_from_zero  &tog 5
+&none      &none  &none          &none    &none     &none              &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &kp K_APP            &none
+&none      &none  &kp RG(X)      &none    &none     &kp LC(LEFT)       &none     &kp HOME  &kp END    &sk LALT   &none                &kp LS(LC(LA(O)))
+                                 &kp DEL  &kp LGUI  &ace_jump_pycharm  &trans    &trans    &lt 4 TAB
             >;
         };
 
