@@ -143,7 +143,7 @@
         sc1: sc1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LC(NUMBER_1) &kp S>;
+            bindings = <&kt NUMBER_1 &kp S>;
             label = "SC1";
         };
     };
