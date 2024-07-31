@@ -221,7 +221,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "SC_4";
             #binding-cells = <0>;
-            bindings = <&kp NUMBER_4>, <&kp LC(NUMBER_3)>;
+            bindings = <&kp NUMBER_4>, <&kp LC(NUMBER_4)>;
 
             tapping-term-ms = <300>;
         };
@@ -239,7 +239,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "SC_6";
             #binding-cells = <0>;
-            bindings = <&kp NUMBER_6>, <&kp LC(N5)>;
+            bindings = <&kp NUMBER_6>, <&kp LC(NUMBER_6)>;
 
             tapping-term-ms = <300>;
         };
