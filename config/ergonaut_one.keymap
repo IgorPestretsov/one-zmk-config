@@ -239,7 +239,7 @@
 
             bindings = <
 &kp GRAVE  &none  &none  &none   &none     &none   &kp PG_UP  &kp PAGE_DOWN  &kp CAPS   &none      &vim_past_from_zero  &tog 5
-&none      &none  &none  &none   &none     &none   &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &kp K_APP            &none
+&none      &none  &none  &none   &none     &none   &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &kp K_APP            &tog 7
 &none      &none  &none  &none   &none     &none   &kp INS    &kp HOME       &kp END    &sk LALT   &none                &kp LS(LC(LA(O)))
                          &trans  &kp LGUI  &trans  &trans     &trans         &lt 4 TAB
             >;
@@ -256,10 +256,10 @@
 
         game_layer {
             bindings = <
-&lt 6 TAB     &kp Q  &kp W  &kp E           &kp R      &kp T    &kp Y       &kp U      &kp I          &kp O       &kp P          &tog 5
-&kp LEFT_ALT  &kp A  &kp S  &kp D           &kp F      &kp G    &kp H       &kp J      &kp K          &kp L       &kp SEMICOLON  &trans
-&kp LCTRL     &kp Z  &kp X  &kp C           &kp V      &kp B    &kp N       &kp M      &kp COMMA      &kp PERIOD  &trans         &lt 6 NON_US_BACKSLASH
-                            &kp LEFT_SHIFT  &kp SPACE  &kp TAB  &kp ESCAPE  &kp ENTER  &kp BACKSPACE
+&lt 6 BACKSPACE  &kp Q  &kp W  &kp E           &kp R      &kp T    &kp Y       &kp U      &kp I          &kp O       &kp P          &tog 5
+&kp LEFT_ALT     &kp A  &kp S  &kp D           &kp F      &kp G    &kp H       &kp J      &kp K          &kp L       &kp SEMICOLON  &trans
+&kp LCTRL        &kp Z  &kp X  &kp C           &kp V      &kp B    &kp N       &kp M      &kp COMMA      &kp PERIOD  &trans         &lt 6 NON_US_BACKSLASH
+                               &kp LEFT_SHIFT  &kp SPACE  &kp TAB  &kp ESCAPE  &kp ENTER  &kp BACKSPACE
             >;
 
             label = "GM";
@@ -267,10 +267,19 @@
 
         game_layer2 {
             bindings = <
-&trans  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kt LC(NUMBER_1)  &kt LC(NUMBER_2)  &kt LC(NUMBER_3)  &kt LC(NUMBER_4)  &kt LC(N5)  &trans
+&trans  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(N5)  &trans
 &trans  &trans  &trans  &trans        &kp NUMBER_4  &kp N5        &trans            &trans            &trans            &trans            &trans      &trans
 &trans  &trans  &trans  &trans        &trans        &trans        &trans            &trans            &trans            &trans            &trans      &trans
                         &trans        &trans        &sc1          &trans            &trans            &trans
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&lt 6 BACKSPACE  &kp Q  &kp W  &kp E           &kp R      &kp T    &kp Y   &kp U   &kp I      &kp O    &kp P     &tog 7
+&mt LEFT_ALT V   &kp A  &kp S  &kp D           &kp F      &kp G    &kp H   &kp J   &kp K      &kp L    &kp SEMI  &trans
+&kp LCTRL        &kp Z  &kp X  &kp C           &kp V      &kp B    &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
+                               &kp LEFT_SHIFT  &kp SPACE  &kp TAB  &trans  &trans  &trans
             >;
         };
     };
