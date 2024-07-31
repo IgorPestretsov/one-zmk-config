@@ -140,11 +140,19 @@
             bindings = <&kp LS(SQT) &kp LS(N8) &kp P>;
         };
 
-        sc1: sc1 {
+        select_l: sc1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kt NUMBER_1 &kp S>;
             label = "SC1";
+            wait-ms = <300>;
+        };
+
+        build_h: build_h {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt B &kp H>;
+            label = "BUILD_H";
             wait-ms = <300>;
         };
     };
@@ -340,7 +348,7 @@
             bindings = <
 &kp ESCAPE              &kp Q  &kp W  &kp E           &kp R      &kp T      &kp Y       &kp U      &kp I          &kp O    &kp P     &tog 5
 &mt LEFT_ALT BACKSPACE  &kp A  &kp S  &kp D           &kp F      &kp G      &kp H       &kp J      &kp K          &kp L    &kp SEMI  &trans
-&kp LCTRL               &kp Z  &kp X  &kp C           &kp V      &kp B      &kp N       &kp M      &kp COMMA      &kp DOT  &kp FSLH  &sc1
+&kp LCTRL               &kp Z  &kp X  &kp C           &kp V      &kp B      &kp N       &kp M      &kp COMMA      &kp DOT  &kp FSLH  &select_l
                                       &kp LEFT_SHIFT  &kp SPACE  &lt 6 TAB  &kp ESCAPE  &kp ENTER  &kp BACKSPACE
             >;
 
@@ -349,10 +357,10 @@
 
         starcraft2 {
             bindings = <
-&trans  &trans  &sc_7  &sc_8   &sc_9   &kp F1  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(N5)  &trans
-&trans  &trans  &sc1   &sc_2   &sc_3   &kp F2  &trans            &trans            &trans            &trans            &trans      &trans
-&trans  &trans  &sc_4  &sc_5   &sc_6   &trans  &trans            &trans            &trans            &trans            &trans      &trans
-                       &trans  &trans  &trans  &trans            &trans            &trans
+&trans  &trans  &sc_7  &sc_8   &sc_9   &kp F1    &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(N5)  &trans
+&trans  &trans  &sc_1  &sc_2   &sc_3   &kp F2    &trans            &trans            &trans            &trans            &trans      &trans
+&trans  &trans  &sc_4  &sc_5   &sc_6   &build_h  &trans            &trans            &trans            &trans            &trans      &trans
+                       &trans  &trans  &trans    &trans            &trans            &trans
             >;
         };
     };
