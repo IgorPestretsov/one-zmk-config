@@ -145,7 +145,7 @@
             #binding-cells = <0>;
             bindings = <&kt NUMBER_1 &kp S>;
             label = "SC1";
-            wait-ms = <300>;
+            wait-ms = <400>;
         };
 
         build_h: build_h {
@@ -153,7 +153,7 @@
             #binding-cells = <0>;
             bindings = <&kt B &kp H>;
             label = "BUILD_H";
-            wait-ms = <300>;
+            wait-ms = <400>;
         };
     };
 
