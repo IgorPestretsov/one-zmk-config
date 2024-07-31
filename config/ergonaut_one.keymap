@@ -270,7 +270,7 @@
 &trans  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(N5)  &trans
 &trans  &trans  &trans  &trans        &kp NUMBER_4  &kp N5        &trans            &trans            &trans            &trans            &trans      &trans
 &trans  &trans  &trans  &trans        &trans        &trans        &trans            &trans            &trans            &trans            &trans      &trans
-                        &trans        &trans        &sc1          &trans            &trans            &trans
+                        &kp F1        &kp F2        &sc1          &trans            &trans            &trans
             >;
         };
 
