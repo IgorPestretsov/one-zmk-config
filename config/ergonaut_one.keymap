@@ -8,6 +8,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
 
 #define DEF 0
 #define LWR 1
@@ -138,6 +139,13 @@
             tap-ms = <40>;
             bindings = <&kp LS(SQT) &kp LS(N8) &kp P>;
         };
+
+        sc1: sc1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LC(NUMBER_1) &kp S>;
+            label = "SC1";
+        };
     };
 
     behaviors {
@@ -259,10 +267,10 @@
 
         game_layer2 {
             bindings = <
-&trans  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans        &kp NUMBER_4  &kp N5        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans        &trans        &trans        &trans  &trans  &trans
+&trans  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kt LC(NUMBER_1)  &kt LC(NUMBER_2)  &kt LC(NUMBER_3)  &kt LC(NUMBER_4)  &kt LC(N5)  &trans
+&trans  &trans  &trans  &trans        &kp NUMBER_4  &kp N5        &trans            &trans            &trans            &trans            &trans      &trans
+&trans  &trans  &trans  &trans        &trans        &trans        &trans            &trans            &trans            &trans            &trans      &trans
+                        &trans        &trans        &sc1          &trans            &trans            &trans
             >;
         };
     };
