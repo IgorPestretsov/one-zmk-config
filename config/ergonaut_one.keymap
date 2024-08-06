@@ -346,10 +346,10 @@
 
         starcraft {
             bindings = <
-&kp ESCAPE              &kp Q  &kp W  &kp E           &kp R      &kp T      &kp Y       &kp U      &kp I          &kp O    &kp P     &tog 5
-&mt LEFT_ALT BACKSPACE  &kp A  &kp S  &kp D           &kp F      &kp G      &kp H       &kp J      &kp K          &kp L    &kp SEMI  &trans
-&kp LCTRL               &kp Z  &kp X  &kp C           &kp V      &kp B      &kp N       &kp M      &kp COMMA      &kp DOT  &kp FSLH  &select_l
-                                      &kp LEFT_SHIFT  &kp SPACE  &lt 6 TAB  &kp ESCAPE  &kp ENTER  &kp BACKSPACE
+&kp ESCAPE              &kp Q  &kp W  &kp E           &kp R      &kp T  &kp Y       &kp U      &kp I          &kp O    &kp P     &tog 5
+&mt LEFT_ALT BACKSPACE  &kp A  &kp S  &kp D           &kp F      &kp G  &kp H       &kp J      &kp K          &kp L    &kp SEMI  &trans
+&kp LCTRL               &kp Z  &kp X  &kp C           &kp V      &kp B  &kp N       &kp M      &kp COMMA      &kp DOT  &kp FSLH  &select_l
+                                      &kp LEFT_SHIFT  &kp SPACE  &mo 6  &kp ESCAPE  &kp ENTER  &kp BACKSPACE
             >;
 
             label = "sc";
@@ -357,10 +357,10 @@
 
         starcraft2 {
             bindings = <
-&trans  &trans  &sc_7  &sc_8   &sc_9   &kp F1    &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(N5)  &trans
-&trans  &trans  &sc_1  &sc_2   &sc_3   &kp F2    &trans            &trans            &trans            &trans            &trans      &trans
-&trans  &trans  &sc_4  &sc_5   &sc_6   &build_h  &trans            &trans            &trans            &trans            &trans      &trans
-                       &trans  &trans  &trans    &trans            &trans            &trans
+&trans  &trans  &kp N7  &kp N8        &kp N9          &kp F1     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N1  &kp N2        &kp N3          &kp F2     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N4  &kp N5        &kp N6          &trans     &trans  &trans  &trans  &trans  &trans  &trans
+                        &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &trans  &trans  &trans
             >;
         };
     };
