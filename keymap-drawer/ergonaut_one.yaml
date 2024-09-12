@@ -251,7 +251,7 @@ layers:
   - .
   - /
   - LEFT ALT
-  - ESCAPE
+  - adjust
   - {t: ␣, h: adjust}
   - {t: BACKSPACE, h: game2}
   - ESCAPE
