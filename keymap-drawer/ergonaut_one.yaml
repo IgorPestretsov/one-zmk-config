@@ -1,6 +1,6 @@
 layers:
   default:
-  - {t: ']', h: Gui}
+  - {t: F12, h: Gui+Sft+Alt+ Ctrl}
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - '['
-  - {t: '`', h: Ctrl}
+  - {t: Ctl+ `, h: Alt}
   - A
   - S
   - D
@@ -23,8 +23,8 @@ layers:
   - K
   - L
   - ;
-  - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
+  - ''''
+  - {t: Gui+ ␣, h: Ctrl}
   - Z
   - X
   - C
@@ -35,15 +35,83 @@ layers:
   - ','
   - .
   - /
-  - {t: \, h: Alt}
-  - {t: ↹, h: raise}
-  - {t: ␣, h: Shift}
-  - {t: ⏎, h: lower}
-  - {t: Esc, h: lower}
-  - {t: ⌫, h: Shift}
-  - {t: ⌦, h: raise}
+  - \
+  - {t: ⌦, h: LSHIFT}
+  - ␣
+  - {t: ↹, h: lower}
+  - {t: Esc, h: adjust}
+  - {t: ⏎, h: raise}
+  - {t: ⌫, h: RSHIFT}
   lower:
-  - {t: F1, h: Gui}
+  - VOL UP
+  - NEXT
+  - PREV
+  - Insert
+  - ''
+  - LEFT GUI
+  - Alt+ 1
+  - '7'
+  - '8'
+  - '9'
+  - ''
+  - ''
+  - PLAY PAUSE
+  - Ctl+ KP 1
+  - Ctl+ KP 2
+  - Ctl+ KP 3
+  - '&td_49'
+  - '&td_50'
+  - Alt+ F11
+  - '4'
+  - '5'
+  - '6'
+  - .
+  - ''
+  - VOL DN
+  - Ctl+ KP 6
+  - ESCAPE
+  - ⏎
+  - BACKSPACE
+  - '&td_78'
+  - Alt+ F12
+  - '1'
+  - '2'
+  - '3'
+  - '0'
+  - ''
+  - {t: ↹, h: tech}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ⌫
+  raise:
+  - ''
+  - '='
+  - Sft+ =
+  - ''
+  - ''
+  - ''
+  - Sft+ (F10)
+  - Sft+Alt+ F9
+  - Meh+ F9
+  - '-'
+  - Sft+ -
+  - ']'
+  - ''
+  - Sft+ 1
+  - Sft+ 2
+  - Sft+ 3
+  - Sft+ 4
+  - Sft+ 5
+  - Sft+ 6
+  - Sft+ 7
+  - Sft+ 8
+  - Sft+ 9
+  - Sft+ 0
+  - ''
+  - ''
+  - F1
   - F2
   - F3
   - F4
@@ -53,121 +121,209 @@ layers:
   - F8
   - F9
   - F10
-  - F11
-  - F12
-  - {t: +, h: Ctrl}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - {t: '-', h: Ctrl}
-  - {t: '=', h: Alt}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
+  - '&td_f112'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  adjust:
+  - '`'
+  - ''
+  - ''
+  - '&td_16_nums'
+  - '&td_27_nums'
+  - '&td_38_nums'
+  - Page Up
+  - PAGE DOWN
+  - Caps Lock
+  - ''
+  - '&vim_past_from_zero'
+  - {t: game1, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&td_49_nums'
+  - '&td_50_nums'
+  - ←
+  - ↓
+  - ↑
+  - →
+  - APP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - Meh+ O
+  - {t: ▽, type: trans}
+  - Gui
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ↹, h: tech}
+  tech:
+  - Boot
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Boot
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - BT 5
+  - BT 4
+  - BT 3
+  - BT 2
+  - BT 1
+  - BT CLR
+  - Reset
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Reset
+  - {type: held}
+  - ''
+  - {type: held}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  game1:
+  - Alt
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: game1, h: toggle}
+  - Shift
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - {t: ▽, type: trans}
+  - Ctrl
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - LEFT ALT
+  - ESCAPE
+  - {t: ␣, h: adjust}
+  - {t: BACKSPACE, h: game2}
+  - ESCAPE
+  - ENTER
+  - BACKSPACE
+  game2:
+  - Esc
+  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
-  - '0'
-  - Alt
+  - F1
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - H
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - F2
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - I
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  raise:
-  - {t: KP NUM, h: Gui}
-  - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - Vol Up
-  - Home
-  - Print Scrn
-  - Page Up
-  - SLCK
-  - CLCK
-  - {t: '=', h: Ctrl}
-  - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - MUTE
-  - ←
-  - ↑
-  - →
-  - Insert
-  - {t: APP, h: Ctrl}
-  - Alt
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
-  - Vol Down
-  - End
-  - ↓
-  - Page Down
-  - Pause Break
-  - Alt
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  adjust:
-  - Boot
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Boot
-  - BT CLR
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
-  - BT 5
-  - BT 5
-  - BT 4
-  - BT 3
-  - BT 2
-  - BT 1
-  - BT CLR
-  - Reset
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Reset
-  - {type: held}
-  - ''
-  - {type: held}
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+combos:
+- p: [19, 20]
+  k: Gui+ S
+- p: [20, 21]
+  k: Ctl+ Z
+- p: [8, 7]
+  k: {t: Ctrl, h: sticky}
+- p: [15, 16]
+  k: Ctl+ C
+- p: [4, 3]
+  k: Ctl+ V
+- p: [27, 28]
+  k: Sft+ Ctrl
+- p: [27, 26]
+  k: Alt+ Ctrl
+- p: [28, 26]
+  k: Sft+ Alt
+- p: [28, 26, 27]
+  k: Sft+Alt+ Ctrl
+- p: [31, 32]
+  k: Sft+ Ctrl
+- p: [32, 33]
+  k: Alt+ Ctrl
+- p: [31, 33]
+  k: Sft+ Alt
+- p: [31, 32, 33]
+  k: Sft+Alt+ Ctrl
