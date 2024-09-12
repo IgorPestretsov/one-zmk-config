@@ -252,7 +252,7 @@ layers:
   - /
   - LEFT ALT
   - ↹
-  - {t: ␣, h: shooter2}
+  - ␣
   - {t: BACKSPACE, h: starcraft2}
   - ESCAPE
   - ENTER
@@ -301,7 +301,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   shooter:
-  - '`'
+  - {t: ESCAPE, h: shooter2}
   - Q
   - W
   - E
@@ -344,7 +344,7 @@ layers:
   - ENTER
   - ⌫
   shooter2:
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&td_16_nums'
@@ -381,7 +381,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
