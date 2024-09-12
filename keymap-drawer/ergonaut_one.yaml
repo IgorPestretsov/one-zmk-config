@@ -301,7 +301,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   shooter:
-  - {t: ESCAPE, h: shooter2}
+  - ↹
   - Q
   - W
   - E
@@ -338,13 +338,13 @@ layers:
   - /
   - {t: ▽, type: trans}
   - Alt
-  - {t: ␣, h: shooter2}
-  - ↹
+  - ␣
+  - shooter2
   - Esc
   - ENTER
   - ⌫
   shooter2:
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&td_16_nums'
@@ -382,7 +382,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
