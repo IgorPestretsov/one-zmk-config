@@ -140,7 +140,7 @@ layers:
   - Caps Lock
   - ''
   - '&vim_past_from_zero'
-  - {t: game1, h: toggle}
+  - {t: starcraft, h: toggle}
   - ''
   - ''
   - ''
@@ -152,7 +152,7 @@ layers:
   - ↑
   - →
   - APP
-  - ''
+  - {t: shooter, h: toggle}
   - ''
   - ''
   - ''
@@ -214,7 +214,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  game1:
+  starcraft:
   - Alt
   - Q
   - W
@@ -226,7 +226,7 @@ layers:
   - I
   - O
   - P
-  - {t: game1, h: toggle}
+  - {t: starcraft, h: toggle}
   - Shift
   - A
   - S
@@ -252,12 +252,12 @@ layers:
   - /
   - LEFT ALT
   - ↹
-  - {t: ␣, h: game3}
-  - {t: BACKSPACE, h: game2}
+  - {t: ␣, h: shooter2}
+  - {t: BACKSPACE, h: starcraft2}
   - ESCAPE
   - ENTER
   - BACKSPACE
-  game2:
+  starcraft2:
   - Esc
   - {t: ▽, type: trans}
   - '7'
@@ -300,7 +300,50 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  game3:
+  shooter:
+  - '`'
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: shooter, h: toggle}
+  - Shift
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - {t: ▽, type: trans}
+  - Ctrl
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: ▽, type: trans}
+  - Alt
+  - {t: ␣, h: shooter2}
+  - ↹
+  - Esc
+  - ENTER
+  - ⌫
+  shooter2:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

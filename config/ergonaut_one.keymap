@@ -293,7 +293,7 @@
 
             bindings = <
 &kp GRAVE  &none  &none  &td_16_nums  &td_27_nums  &td_38_nums  &kp PG_UP  &kp PAGE_DOWN  &kp CAPS   &none      &vim_past_from_zero  &tog 5
-&none      &none  &none  &none        &td_49_nums  &td_50_nums  &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &kp K_APP            &none
+&none      &none  &none  &none        &td_49_nums  &td_50_nums  &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &kp K_APP            &tog 7
 &none      &none  &none  &none        &none        &none        &trans     &trans         &trans     &trans     &none                &kp LS(LC(LA(O)))
                          &trans       &kp LGUI     &trans       &trans     &trans         &lt 4 TAB
             >;
@@ -308,27 +308,38 @@
             >;
         };
 
-        game1 {
+        starcraft {
             bindings = <
 &kp LALT   &kp Q  &kp W  &kp E    &kp R        &kp T            &kp Y       &kp U      &kp I          &kp O    &kp P     &tog 5
 &kp LSHFT  &kp A  &kp S  &kp D    &kp F        &kp G            &kp H       &kp J      &kp K          &kp L    &kp SEMI  &trans
 &kp LCTRL  &kp Z  &kp X  &kp C    &kp V        &kp B            &kp N       &kp M      &kp COMMA      &kp DOT  &kp FSLH  &kp LEFT_ALT
-                         &kp TAB  &lt 7 SPACE  &lt 6 BACKSPACE  &kp ESCAPE  &kp ENTER  &kp BACKSPACE
+                         &kp TAB  &lt 8 SPACE  &lt 6 BACKSPACE  &kp ESCAPE  &kp ENTER  &kp BACKSPACE
             >;
 
             label = "sc";
         };
 
-        game2 {
+        starcraft2 {
             bindings = <
 &kp ESC  &trans  &kp N7  &kp N8  &kp N9  &kp F1  &trans  &trans  &trans  &trans  &trans  &trans
 &kp H    &trans  &kp N1  &kp N2  &kp N3  &kp F2  &trans  &trans  &trans  &trans  &trans  &trans
 &kp I    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                          &none   &none   &none   &trans  &trans  &trans
             >;
+
+            label = "sc2";
         };
 
-        game3 {
+        shooter {
+            bindings = <
+&kp GRAVE  &kp Q  &kp W  &kp E     &kp R        &kp T    &kp Y    &kp U      &kp I      &kp O    &kp P     &tog 7
+&kp LSHFT  &kp A  &kp S  &kp D     &kp F        &kp G    &kp H    &kp J      &kp K      &kp L    &kp SEMI  &trans
+&kp LCTRL  &kp Z  &kp X  &kp C     &kp V        &kp B    &kp N    &kp M      &kp COMMA  &kp DOT  &kp FSLH  &trans
+                         &kp LALT  &lt 8 SPACE  &kp TAB  &kp ESC  &kp ENTER  &kp BSPC
+            >;
+        };
+
+        shooter2 {
             bindings = <
 &trans  &trans  &trans  &td_16_nums  &td_27_nums  &td_38_nums  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans       &td_49_nums  &td_50_nums  &trans  &trans  &trans  &trans  &trans  &trans
