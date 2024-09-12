@@ -252,7 +252,7 @@ layers:
   - /
   - LEFT ALT
   - ESCAPE
-  - {t: ␣, h: adjust}
+  - {t: ␣, h: game2}
   - {t: BACKSPACE, h: game2}
   - ESCAPE
   - ENTER
@@ -295,8 +295,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - ''
   - {type: held}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
