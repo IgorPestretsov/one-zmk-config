@@ -190,85 +190,25 @@
             bindings = <&kp LC(KP_N5)>, <&kp LC(KP_N0)>;
         };
 
-        sc_1: sc_1 {
+        td_16: td_16 {
             compatible = "zmk,behavior-tap-dance";
-            label = "SC_1";
+            label = "TD_16";
             #binding-cells = <0>;
-            bindings = <&kp NUMBER_1>, <&kp LC(NUMBER_1)>;
-
-            tapping-term-ms = <300>;
+            bindings = <&kp NUMBER_1>, <&kp NUMBER_6>;
         };
 
-        sc_2: sc_2 {
+        td_27: td_27 {
             compatible = "zmk,behavior-tap-dance";
-            label = "SC_2";
+            label = "TD_27";
             #binding-cells = <0>;
-            bindings = <&kp NUMBER_2>, <&kp LC(NUMBER_2)>;
-
-            tapping-term-ms = <300>;
+            bindings = <&kp NUMBER_2>, <&kp N7>;
         };
 
-        sc_3: sc_3 {
+        td_38: td_38 {
             compatible = "zmk,behavior-tap-dance";
-            label = "SC_3";
+            label = "TD_38";
             #binding-cells = <0>;
-            bindings = <&kp NUMBER_3>, <&kp LC(NUMBER_3)>;
-
-            tapping-term-ms = <300>;
-        };
-
-        sc_4: sc_4 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "SC_4";
-            #binding-cells = <0>;
-            bindings = <&kp NUMBER_4>, <&kp LC(NUMBER_4)>;
-
-            tapping-term-ms = <300>;
-        };
-
-        sc_5: sc_5 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "SC_5";
-            #binding-cells = <0>;
-            bindings = <&kp N5>, <&kp LC(N5)>;
-
-            tapping-term-ms = <300>;
-        };
-
-        sc_6: sc_6 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "SC_6";
-            #binding-cells = <0>;
-            bindings = <&kp NUMBER_6>, <&kp LC(NUMBER_6)>;
-
-            tapping-term-ms = <300>;
-        };
-
-        sc_7: sc_7 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "SC_7";
-            #binding-cells = <0>;
-            bindings = <&kp N7>, <&kp LC(N7)>;
-
-            tapping-term-ms = <300>;
-        };
-
-        sc_8: sc_8 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "SC_8";
-            #binding-cells = <0>;
-            bindings = <&kp N8>, <&kp LC(N8)>;
-
-            tapping-term-ms = <300>;
-        };
-
-        sc_9: sc_9 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "SC_9";
-            #binding-cells = <0>;
-            bindings = <&kp N9>, <&kp LC(N9)>;
-
-            tapping-term-ms = <300>;
+            bindings = <&kp NUMBER_3>, <&kp N8>;
         };
     };
 
@@ -328,8 +268,8 @@
             //           | TRANS |  GUI   | ace_jump_pycharm |        | TRANS | TRANS  | TRANS |
 
             bindings = <
-&kp GRAVE  &none  &none  &none   &none     &none   &kp PG_UP  &kp PAGE_DOWN  &kp CAPS   &none      &vim_past_from_zero  &tog 5
-&none      &none  &none  &none   &none     &none   &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &kp K_APP            &none
+&kp GRAVE  &none  &none  &td_16  &td_27    &td_38  &kp PG_UP  &kp PAGE_DOWN  &kp CAPS   &none      &vim_past_from_zero  &tog 5
+&none      &none  &none  &none   &td_49    &td_50  &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &kp K_APP            &none
 &none      &none  &none  &none   &none     &none   &kp INS    &kp HOME       &kp END    &sk LALT   &none                &kp LS(LC(LA(O)))
                          &trans  &kp LGUI  &trans  &trans     &trans         &lt 4 TAB
             >;
@@ -344,18 +284,18 @@
             >;
         };
 
-        starcraft {
+        game1 {
             bindings = <
-&kp LALT   &kp Q  &kp W  &kp E       &kp R      &kp T            &kp Y       &kp U      &kp I          &kp O    &kp P     &tog 5
-&kp LSHFT  &kp A  &kp S  &kp D       &kp F      &kp G            &kp H       &kp J      &kp K          &kp L    &kp SEMI  &trans
-&kp LCTRL  &kp Z  &kp X  &kp C       &kp V      &kp B            &kp N       &kp M      &kp COMMA      &kp DOT  &kp FSLH  &kp LEFT_ALT
-                         &kp ESCAPE  &kp SPACE  &lt 6 BACKSPACE  &kp ESCAPE  &kp ENTER  &kp BACKSPACE
+&kp LALT   &kp Q  &kp W  &kp E       &kp R        &kp T            &kp Y       &kp U      &kp I          &kp O    &kp P     &tog 5
+&kp LSHFT  &kp A  &kp S  &kp D       &kp F        &kp G            &kp H       &kp J      &kp K          &kp L    &kp SEMI  &trans
+&kp LCTRL  &kp Z  &kp X  &kp C       &kp V        &kp B            &kp N       &kp M      &kp COMMA      &kp DOT  &kp FSLH  &kp LEFT_ALT
+                         &kp ESCAPE  &lt 3 SPACE  &lt 6 BACKSPACE  &kp ESCAPE  &kp ENTER  &kp BACKSPACE
             >;
 
             label = "sc";
         };
 
-        starcraft2 {
+        game2 {
             bindings = <
 &kp ESC  &trans  &kp N7  &kp N8  &kp N9  &kp F1  &trans  &trans  &trans  &trans  &trans  &trans
 &kp H    &trans  &kp N1  &kp N2  &kp N3  &kp F2  &trans  &trans  &trans  &trans  &trans  &trans
