@@ -330,10 +330,10 @@
 
         layer_7 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &kp SPACE  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &td_16_nums  &td_27_nums  &td_38_nums  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans       &td_49_nums  &td_50_nums  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans       &trans       &trans       &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans       &trans       &trans       &trans  &trans  &trans
             >;
         };
     };
