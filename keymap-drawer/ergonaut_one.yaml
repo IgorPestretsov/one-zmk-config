@@ -344,8 +344,8 @@ layers:
   - ENTER
   - ⌫
   shooter2:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '4'
+  - '7'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -356,8 +356,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '5'
+  - '8'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
@@ -368,8 +368,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '6'
+  - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
