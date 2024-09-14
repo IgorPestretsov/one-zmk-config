@@ -301,7 +301,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   shooter:
-  - '&td_147_nums'
+  - '1'
   - ↹
   - Q
   - W
@@ -313,7 +313,7 @@ layers:
   - O
   - P
   - {t: shooter, h: toggle}
-  - '&td_258_nums'
+  - '2'
   - Shift
   - A
   - S
@@ -325,7 +325,7 @@ layers:
   - L
   - ;
   - {t: ▽, type: trans}
-  - '&td_369_nums'
+  - '3'
   - Ctrl
   - Z
   - X
