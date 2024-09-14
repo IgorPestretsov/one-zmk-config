@@ -276,7 +276,7 @@
             bindings = <
 &kp GRAVE  &none  &none  &td_147_nums  &td_258_nums  &td_369_nums  &kp PG_UP  &kp PAGE_DOWN  &kp CAPS   &none      &vim_past_from_zero  &tog 5
 &none      &none  &none  &none         &none         &none         &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &kp K_APP            &tog 7
-&none      &none  &none  &none         &none         &none         &trans     &trans         &trans     &trans     &none                &kp LS(LC(LA(O)))
+&none      &none  &none  &none         &none         &none         &trans     &kp HOME       &kp END    &trans     &none                &kp LS(LC(LA(O)))
                          &trans        &kp LGUI      &trans        &trans     &trans         &lt 4 TAB
             >;
         };
