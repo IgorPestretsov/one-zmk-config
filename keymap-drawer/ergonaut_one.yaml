@@ -132,9 +132,9 @@ layers:
   - '`'
   - ''
   - ''
-  - '&td_16_nums'
-  - '&td_27_nums'
-  - '&td_38_nums'
+  - '&td_147_nums'
+  - '&td_258_nums'
+  - '&td_369_nums'
   - Page Up
   - PAGE DOWN
   - Caps Lock
@@ -145,8 +145,8 @@ layers:
   - ''
   - ''
   - ''
-  - '&td_49_nums'
-  - '&td_50_nums'
+  - ''
+  - ''
   - ←
   - ↓
   - ↑
@@ -301,36 +301,36 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   shooter:
+  - '&td_147_nums'
   - ↹
   - Q
   - W
   - E
   - R
-  - T
   - Y
   - U
   - I
   - O
   - P
   - {t: shooter, h: toggle}
+  - '&td_258_nums'
   - Shift
   - A
   - S
   - D
   - F
-  - G
   - H
   - J
   - K
   - L
   - ;
   - {t: ▽, type: trans}
+  - '&td_369_nums'
   - Ctrl
   - Z
   - X
   - C
   - V
-  - B
   - N
   - M
   - ','
@@ -347,9 +347,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&td_16_nums'
-  - '&td_27_nums'
-  - '&td_38_nums'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - T
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -360,8 +360,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&td_49_nums'
-  - '&td_50_nums'
+  - ''
+  - G
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -373,7 +373,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
