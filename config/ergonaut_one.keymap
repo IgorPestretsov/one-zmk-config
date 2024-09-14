@@ -323,10 +323,10 @@
 
         shooter2 {
             bindings = <
-&kp N4  &kp N7  &trans  &trans  &trans  &kp T   &trans  &trans  &trans  &trans  &trans  &trans
-&kp N5  &kp N8  &trans  &trans  &none   &kp G   &trans  &trans  &trans  &trans  &trans  &trans
-&kp N6  &kp N9  &trans  &trans  &trans  &kp B   &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans  &trans  &trans
+&kp N4  &kp N7  &trans  &kp ESC  &kp M   &kp T   &trans  &trans  &trans  &trans  &trans  &trans
+&kp N5  &kp N8  &trans  &trans   &none   &kp G   &trans  &trans  &trans  &trans  &trans  &trans
+&kp N6  &kp N9  &trans  &trans   &trans  &kp B   &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans   &trans  &trans  &trans  &trans  &trans
             >;
         };
     };

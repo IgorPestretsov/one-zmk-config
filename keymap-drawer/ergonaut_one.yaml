@@ -347,8 +347,8 @@ layers:
   - '4'
   - '7'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Esc
+  - M
   - T
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
