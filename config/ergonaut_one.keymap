@@ -189,33 +189,6 @@
             tapping-term-ms = <300>;
             bindings = <&kp LC(KP_N5)>, <&kp LC(KP_N0)>;
         };
-
-        td_147_nums: td_147_nums {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_147_NUMS";
-            #binding-cells = <0>;
-            bindings = <&kp NUMBER_1>, <&kp NUMBER_4>, <&kp NUMBER_7>;
-
-            tapping-term-ms = <300>;
-        };
-
-        td_258_nums: td_258_nums {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_258_NUMS";
-            #binding-cells = <0>;
-            bindings = <&kp NUMBER_2>, <&kp N5>, <&kp N8>;
-
-            tapping-term-ms = <300>;
-        };
-
-        td_369_nums: td_369_nums {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_369_NUMS";
-            #binding-cells = <0>;
-            bindings = <&kp NUMBER_3>, <&kp NUMBER_6>, <&kp NUMBER_9>;
-
-            tapping-term-ms = <300>;
-        };
     };
 
     keymap {
@@ -274,10 +247,10 @@
             //           | TRANS |  GUI   | ace_jump_pycharm |        | TRANS | TRANS  | TRANS |
 
             bindings = <
-&kp GRAVE  &none  &none  &td_147_nums  &td_258_nums  &td_369_nums  &kp PG_UP  &kp PAGE_DOWN  &kp CAPS   &none      &vim_past_from_zero  &tog 5
-&none      &none  &none  &none         &none         &none         &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &kp K_APP            &tog 7
-&none      &none  &none  &none         &none         &none         &trans     &kp HOME       &kp END    &trans     &none                &kp LS(LC(LA(O)))
-                         &trans        &kp LGUI      &trans        &trans     &trans         &lt 4 TAB
+&kp GRAVE  &none  &none  &none   &none     &none   &kp PG_UP  &kp PAGE_DOWN  &kp CAPS   &none      &vim_past_from_zero  &tog 5
+&none      &none  &none  &none   &none     &none   &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &kp K_APP            &tog 7
+&none      &none  &none  &none   &none     &none   &trans     &kp HOME       &kp END    &trans     &none                &kp LS(LC(LA(O)))
+                         &trans  &kp LGUI  &trans  &trans     &trans         &lt 4 TAB
             >;
         };
 
