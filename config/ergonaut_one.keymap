@@ -256,7 +256,7 @@
 
         tech_layer {
             bindings = <
-&bootloader  &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &bootloader
+&bootloader  &none         &none         &none         &none         &tog 7        &none         &none         &none         &none         &none         &bootloader
 &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
 &sys_reset   &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &sys_reset
                                          &trans        &none         &trans        &none         &trans        &trans
@@ -299,7 +299,7 @@
 &kp N4  &kp N7  &trans  &kp ESC  &kp M   &kp T   &trans  &trans  &trans  &trans  &trans  &trans
 &kp N5  &kp N8  &trans  &trans   &none   &kp G   &trans  &trans  &trans  &trans  &trans  &trans
 &kp N6  &kp N9  &trans  &trans   &trans  &kp B   &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans   &trans  &trans  &trans  &trans  &trans
+                        &tog 7   &trans  &trans  &trans  &trans  &trans
             >;
         };
     };

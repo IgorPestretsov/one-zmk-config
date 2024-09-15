@@ -177,7 +177,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: shooter, h: toggle}
   - ''
   - ''
   - ''
@@ -380,7 +380,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: shooter, h: toggle}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
