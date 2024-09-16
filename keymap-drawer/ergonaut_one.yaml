@@ -176,7 +176,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: starcraft, h: toggle}
   - {t: shooter, h: toggle}
   - ''
   - ''
@@ -294,7 +294,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - {t: starcraft, h: toggle}
   - ''
   - {type: held}
   - {t: ▽, type: trans}

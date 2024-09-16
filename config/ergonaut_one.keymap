@@ -256,7 +256,7 @@
 
         tech_layer {
             bindings = <
-&bootloader  &none         &none         &none         &none         &tog 7        &none         &none         &none         &none         &none         &bootloader
+&bootloader  &none         &none         &none         &tog 5        &tog 7        &none         &none         &none         &none         &none         &bootloader
 &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
 &sys_reset   &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &sys_reset
                                          &trans        &none         &trans        &none         &trans        &trans
@@ -279,7 +279,7 @@
 &kp ESC  &trans  &kp N7  &kp N8  &kp N9  &kp F1  &trans  &trans  &trans  &trans  &trans  &trans
 &kp H    &trans  &kp N1  &kp N2  &kp N3  &kp F2  &trans  &trans  &trans  &trans  &trans  &trans
 &kp I    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                         &none   &none   &none   &trans  &trans  &trans
+                         &tog 5  &none   &none   &trans  &trans  &trans
             >;
 
             label = "sc2";
