@@ -176,7 +176,7 @@ layers:
   - Boot
   - ''
   - ''
-  - ''
+  - {t: wow, h: toggle}
   - {t: sc, h: toggle}
   - {t: shooter, h: toggle}
   - ''
