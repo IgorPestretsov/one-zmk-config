@@ -390,9 +390,9 @@ layers:
   wow:
   - '1'
   - '2'
-  - Q
+  - '-'
   - W
-  - E
+  - '='
   - '7'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -415,7 +415,7 @@ layers:
   - '5'
   - '6'
   - Shift
-  - X
+  - F
   - '0'
   - '9'
   - {t: ▽, type: trans}
@@ -431,36 +431,36 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   wow2:
-  - Ctl+1
-  - Ctl+2
-  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - Z
   - Esc
-  - {t: ▽, type: trans}
-  - Ctl+7
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctl+3
-  - Ctl+4
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F
+  - M
+  - F7
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+5
-  - Ctl+6
+  - F3
+  - F4
+  - B
+  - X
+  - C
+  - F8
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F5
+  - F6
+  - F12
+  - F11
+  - F10
+  - F9
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
