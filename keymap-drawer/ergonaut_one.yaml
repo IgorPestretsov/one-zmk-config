@@ -304,9 +304,9 @@ layers:
   GW:
   - '1'
   - '2'
-  - ''
-  - W
-  - ''
+  - Sft+!
+  - Shift
+  - Sft+@
   - '7'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -328,8 +328,8 @@ layers:
   - Shift
   - '5'
   - '6'
-  - ''
-  - ''
+  - Sft+#
+  - Sft+$
   - '0'
   - '9'
   - {t: ▽, type: trans}
