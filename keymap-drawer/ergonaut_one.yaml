@@ -141,7 +141,7 @@ layers:
   - Caps Lock
   - ''
   - '&vim_past_from_zero'
-  - {t: sc, h: toggle}
+  - {t: default, h: toggle}
   - ''
   - ''
   - ''
@@ -176,8 +176,8 @@ layers:
   - Boot
   - ''
   - ''
-  - {t: wow, h: toggle}
-  - {t: sc, h: toggle}
+  - {t: GW, h: toggle}
+  - ''
   - {t: shooter, h: toggle}
   - ''
   - ''
@@ -213,92 +213,6 @@ layers:
   - ''
   - {type: held}
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  sc:
-  - Alt
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: sc, h: toggle}
-  - Shift
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - {t: ▽, type: trans}
-  - Ctrl
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - LEFT ALT
-  - ↹
-  - ␣
-  - {t: BACKSPACE, h: sc2}
-  - ESCAPE
-  - ENTER
-  - BACKSPACE
-  sc2:
-  - Esc
-  - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
-  - F1
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - H
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - F2
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - I
-  - {t: ▽, type: trans}
-  - '4'
-  - '5'
-  - '6'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: sc, h: toggle}
-  - ''
-  - {type: held}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   shooter:
@@ -387,19 +301,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  wow:
+  GW:
   - '1'
   - '2'
-  - '-'
+  - ''
   - W
-  - '='
+  - ''
   - '7'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: wow, h: toggle}
+  - {t: GW, h: toggle}
   - '3'
   - '4'
   - A
@@ -414,8 +328,8 @@ layers:
   - Shift
   - '5'
   - '6'
-  - Shift
-  - F
+  - ''
+  - ''
   - '0'
   - '9'
   - {t: ▽, type: trans}
@@ -426,14 +340,14 @@ layers:
   - Ctrl
   - ↹
   - ␣
-  - wow2
+  - GW2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  wow2:
+  GW2:
   - F1
   - F2
-  - Z
+  - ''
   - Esc
   - M
   - F7
@@ -445,10 +359,10 @@ layers:
   - {t: ▽, type: trans}
   - F3
   - F4
-  - B
-  - X
-  - C
-  - F8
+  - H
+  - ''
+  - I
+  - F
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -457,10 +371,10 @@ layers:
   - {t: ▽, type: trans}
   - F5
   - F6
-  - F12
-  - F11
-  - F10
-  - F9
+  - Z
+  - X
+  - C
+  - V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

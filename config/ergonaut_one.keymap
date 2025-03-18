@@ -246,8 +246,8 @@
             //           | TRANS |  GUI   | ace_jump_pycharm |        | TRANS | TRANS  | TRANS |
 
             bindings = <
-&kp GRAVE  &none  &none  &none   &none     &none   &kp PG_UP  &kp PAGE_DOWN  &kp CAPS   &none      &vim_past_from_zero  &tog 5
-&none      &none  &none  &none   &none     &none   &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &kp K_APP            &tog 7
+&kp GRAVE  &none  &none  &none   &none     &none   &kp PG_UP  &kp PAGE_DOWN  &kp CAPS   &none      &vim_past_from_zero  &tog 0
+&none      &none  &none  &none   &none     &none   &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &kp K_APP            &tog 5
 &none      &none  &none  &none   &none     &none   &trans     &kp HOME       &kp END    &trans     &none                &kp LS(LC(LA(O)))
                          &trans  &kp LGUI  &trans  &trans     &trans         &lt 4 TAB
             >;
@@ -255,41 +255,19 @@
 
         tech_layer {
             bindings = <
-&bootloader  &none         &none         &tog 9        &tog 5        &tog 7        &none         &none         &none         &none         &none         &bootloader
+&bootloader  &none         &none         &tog 7        &none         &tog 5        &none         &none         &none         &none         &none         &bootloader
 &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
 &sys_reset   &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &sys_reset
                                          &trans        &none         &trans        &none         &trans        &trans
             >;
         };
 
-        starcraft {
-            bindings = <
-&kp LALT   &kp Q  &kp W  &kp E    &kp R      &kp T            &kp Y       &kp U      &kp I          &kp O    &kp P     &tog 5
-&kp LSHFT  &kp A  &kp S  &kp D    &kp F      &kp G            &kp H       &kp J      &kp K          &kp L    &kp SEMI  &trans
-&kp LCTRL  &kp Z  &kp X  &kp C    &kp V      &kp B            &kp N       &kp M      &kp COMMA      &kp DOT  &kp FSLH  &kp LEFT_ALT
-                         &kp TAB  &kp SPACE  &lt 6 BACKSPACE  &kp ESCAPE  &kp ENTER  &kp BACKSPACE
-            >;
-
-            label = "sc";
-        };
-
-        starcraft2 {
-            bindings = <
-&kp ESC  &trans  &kp N7  &kp N8  &kp N9  &kp F1  &trans  &trans  &trans  &trans  &trans  &trans
-&kp H    &trans  &kp N1  &kp N2  &kp N3  &kp F2  &trans  &trans  &trans  &trans  &trans  &trans
-&kp I    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                         &tog 5  &none   &none   &trans  &trans  &trans
-            >;
-
-            label = "sc2";
-        };
-
         shooter {
             bindings = <
-&kp N1  &kp TAB    &kp Q  &kp W     &kp E      &kp R  &kp Y    &kp U      &kp I      &kp O    &kp P     &tog 7
+&kp N1  &kp TAB    &kp Q  &kp W     &kp E      &kp R  &kp Y    &kp U      &kp I      &kp O    &kp P     &tog 5
 &kp N2  &kp LSHFT  &kp A  &kp S     &kp D      &kp F  &kp H    &kp J      &kp K      &kp L    &kp SEMI  &trans
 &kp N3  &kp LCTRL  &kp Z  &kp X     &kp C      &kp V  &kp N    &kp M      &kp COMMA  &kp DOT  &kp FSLH  &trans
-                          &kp LALT  &kp SPACE  &mo 8  &kp ESC  &kp ENTER  &kp BSPC
+                          &kp LALT  &kp SPACE  &mo 6  &kp ESC  &kp ENTER  &kp BSPC
             >;
         };
 
@@ -298,25 +276,25 @@
 &kp N4  &kp N7  &trans  &kp ESC  &kp M   &kp T   &trans  &trans  &trans  &trans  &trans  &trans
 &kp N5  &kp N8  &trans  &trans   &none   &kp G   &trans  &trans  &trans  &trans  &trans  &trans
 &kp N6  &kp N9  &trans  &trans   &trans  &kp B   &trans  &trans  &trans  &trans  &trans  &trans
-                        &tog 7   &trans  &trans  &trans  &trans  &trans
+                        &tog 5   &trans  &trans  &trans  &trans  &trans
             >;
         };
 
-        wow {
+        GW {
             bindings = <
-&kp N1  &kp N2  &kp MINUS  &kp W    &kp EQUAL  &kp N7  &trans  &trans  &trans  &trans  &trans  &tog 9
-&kp N3  &kp N4  &kp A      &kp S    &kp D      &kp N8  &trans  &trans  &trans  &trans  &trans  &kp LSHFT
-&kp N5  &kp N6  &kp LSHFT  &kp F    &kp N0     &kp N9  &trans  &trans  &trans  &trans  &trans  &kp LCTRL
-                           &kp TAB  &kp SPACE  &mo 10  &trans  &trans  &trans
+&kp N1  &kp N2  &none  &kp W    &none      &kp N7  &trans  &trans  &trans  &trans  &trans  &tog 7
+&kp N3  &kp N4  &kp A  &kp S    &kp D      &kp N8  &trans  &trans  &trans  &trans  &trans  &kp LSHFT
+&kp N5  &kp N6  &none  &none    &kp N0     &kp N9  &trans  &trans  &trans  &trans  &trans  &kp LCTRL
+                       &kp TAB  &kp SPACE  &mo 8   &trans  &trans  &trans
             >;
         };
 
-        wow2 {
+        GW2 {
             bindings = <
-&kp F1  &kp F2  &kp Z    &kp ESC  &kp M    &kp F7  &trans  &trans  &trans  &trans  &trans  &trans
-&kp F3  &kp F4  &kp B    &kp X    &kp C    &kp F8  &trans  &trans  &trans  &trans  &trans  &trans
-&kp F5  &kp F6  &kp F12  &kp F11  &kp F10  &kp F9  &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans   &trans   &trans  &trans  &trans  &trans
+&kp F1  &kp F2  &none  &kp ESC  &kp M   &kp F7  &trans  &trans  &trans  &trans  &trans  &trans
+&kp F3  &kp F4  &kp H  &none    &kp I   &kp F   &trans  &trans  &trans  &trans  &trans  &trans
+&kp F5  &kp F6  &kp Z  &kp X    &kp C   &kp V   &trans  &trans  &trans  &trans  &trans  &trans
+                       &trans   &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
