@@ -1,5 +1,48 @@
 layout: {zmk_keyboard: ergonaut_one}
 layers:
+  GW:
+  - '1'
+  - '2'
+  - X
+  - W
+  - ''
+  - '7'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: GW, h: toggle}
+  - '3'
+  - '4'
+  - A
+  - S
+  - D
+  - '8'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Shift
+  - '5'
+  - '6'
+  - ''
+  - V
+  - '0'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctrl
+  - ↹
+  - ␣
+  - GW2
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   default:
   - {t: F12, h: Gui+Sft+Alt+Ctrl}
   - Q
@@ -298,49 +341,6 @@ layers:
   - {t: shooter, h: toggle}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  GW:
-  - '1'
-  - '2'
-  - ''
-  - W
-  - ''
-  - '7'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: GW, h: toggle}
-  - '3'
-  - '4'
-  - A
-  - S
-  - D
-  - '8'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Shift
-  - '5'
-  - '6'
-  - ''
-  - {t: GW, h: toggle}
-  - '0'
-  - '9'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctrl
-  - ↹
-  - ␣
-  - GW2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
