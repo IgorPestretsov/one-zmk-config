@@ -193,15 +193,6 @@
     keymap {
         compatible = "zmk,keymap";
 
-        GW {
-            bindings = <
-&kp N1  &kp N2  &kp X  &kp W    &none      &kp N7  &trans  &trans  &trans  &trans  &trans  &tog 0
-&kp N3  &kp N4  &kp A  &kp S    &kp D      &kp N8  &trans  &trans  &trans  &trans  &trans  &kp LSHFT
-&kp N5  &kp N6  &none  &kp V    &kp N0     &kp N9  &trans  &trans  &trans  &trans  &trans  &kp LCTRL
-                       &kp TAB  &kp SPACE  &mo 8   &trans  &trans  &trans
-            >;
-        };
-
         default_layer {
             // -----------------------------------------------------------------------------------------
             // |none  | lang/meh    |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  |  [   | none |
@@ -213,7 +204,7 @@
 &mt LG(LS(LA(LCTRL))) F12  &kp Q  &kp W  &kp E           &kp R      &kp T      &kp Y      &kp U      &kp I            &kp O    &kp P     &kp LBKT
 &mt LALT LC(GRAVE)         &kp A  &kp S  &kp D           &kp F      &kp G      &kp H      &kp J      &kp K            &kp L    &kp SEMI  &kp SQT
 &mt LCTRL RG(SPACE)        &kp Z  &kp X  &kp C           &kp V      &kp B      &kp N      &kp M      &kp COMMA        &kp DOT  &kp FSLH  &kp BSLH
-                                         &mt LSHIFT DEL  &kp SPACE  &lt 2 TAB  &lt 4 ESC  &lt 3 RET  &mt RSHIFT BSPC
+                                         &mt LSHIFT DEL  &kp SPACE  &lt 1 TAB  &lt 3 ESC  &lt 2 RET  &mt RSHIFT BSPC
             >;
         };
 
@@ -225,10 +216,10 @@
             //                                  | TRANS |  TRANS   | TRANS |            | TRANS | TRANS  | TRANS |
 
             bindings = <
-&kp K_VOL_UP      &kp K_NEXT     &kp K_PREV     &kp INS        &tog 0         &kp LEFT_GUI  &kp LA(N1)   &kp N7  &kp N8    &kp N9  &none    &none
+&kp K_VOL_UP      &kp K_NEXT     &kp K_PREV     &kp INS        &tog 7         &kp LEFT_GUI  &kp LA(N1)   &kp N7  &kp N8    &kp N9  &none    &none
 &kp K_PLAY_PAUSE  &kp LC(KP_N1)  &kp LC(KP_N2)  &kp LC(KP_N3)  &td_49         &td_50        &kp LA(F11)  &kp N4  &kp N5    &kp N6  &kp DOT  &none
 &kp K_VOL_DN      &kp LC(KP_N6)  &kp ESCAPE     &kp RET        &kp BACKSPACE  &td_78        &kp LA(F12)  &kp N1  &kp N2    &kp N3  &kp N0   &none
-                                                &lt 5 TAB      &trans         &trans        &trans       &trans  &kp BSPC
+                                                &lt 4 TAB      &trans         &trans        &trans       &trans  &kp BSPC
             >;
         };
 
@@ -255,16 +246,16 @@
             //           | TRANS |  GUI   | ace_jump_pycharm |        | TRANS | TRANS  | TRANS |
 
             bindings = <
-&kp GRAVE  &none  &none  &none   &none     &none   &kp PG_UP  &kp PAGE_DOWN  &kp CAPS   &none      &vim_past_from_zero  &tog 1
-&none      &none  &none  &none   &none     &none   &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &kp K_APP            &tog 6
+&kp GRAVE  &none  &none  &none   &none     &none   &kp PG_UP  &kp PAGE_DOWN  &kp CAPS   &none      &vim_past_from_zero  &tog 0
+&none      &none  &none  &none   &none     &none   &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &kp K_APP            &tog 5
 &none      &none  &none  &none   &none     &none   &trans     &kp HOME       &kp END    &trans     &none                &kp LS(LC(LA(O)))
-                         &trans  &kp LGUI  &trans  &trans     &trans         &lt 5 TAB
+                         &trans  &kp LGUI  &trans  &trans     &trans         &lt 4 TAB
             >;
         };
 
         tech_layer {
             bindings = <
-&bootloader  &none         &none         &tog 0        &none         &tog 6        &none         &none         &none         &none         &none         &bootloader
+&bootloader  &none         &none         &tog 7        &none         &tog 5        &none         &none         &none         &none         &none         &bootloader
 &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
 &sys_reset   &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &sys_reset
                                          &trans        &none         &trans        &none         &trans        &trans
@@ -273,10 +264,10 @@
 
         shooter {
             bindings = <
-&kp N1  &kp TAB    &kp Q  &kp W     &kp E      &kp R  &kp Y    &kp U      &kp I      &kp O    &kp P     &tog 6
+&kp N1  &kp TAB    &kp Q  &kp W     &kp E      &kp R  &kp Y    &kp U      &kp I      &kp O    &kp P     &tog 5
 &kp N2  &kp LSHFT  &kp A  &kp S     &kp D      &kp F  &kp H    &kp J      &kp K      &kp L    &kp SEMI  &trans
 &kp N3  &kp LCTRL  &kp Z  &kp X     &kp C      &kp V  &kp N    &kp M      &kp COMMA  &kp DOT  &kp FSLH  &trans
-                          &kp LALT  &kp SPACE  &mo 7  &kp ESC  &kp ENTER  &kp BSPC
+                          &kp LALT  &kp SPACE  &mo 6  &kp ESC  &kp ENTER  &kp BSPC
             >;
         };
 
@@ -285,7 +276,16 @@
 &kp N4  &kp N7  &trans  &kp ESC  &kp M   &kp T   &trans  &trans  &trans  &trans  &trans  &trans
 &kp N5  &kp N8  &trans  &trans   &none   &kp G   &trans  &trans  &trans  &trans  &trans  &trans
 &kp N6  &kp N9  &trans  &trans   &trans  &kp B   &trans  &trans  &trans  &trans  &trans  &trans
-                        &tog 6   &trans  &trans  &trans  &trans  &trans
+                        &tog 5   &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        GW {
+            bindings = <
+&kp N1  &kp N2  &kp X  &kp W    &none      &kp N7  &trans  &trans  &trans  &trans  &trans  &tog 8
+&kp N3  &kp N4  &kp A  &kp S    &kp D      &kp N8  &trans  &trans  &trans  &trans  &trans  &kp LSHFT
+&kp N5  &kp N6  &none  &kp V    &kp N0     &kp N9  &trans  &trans  &trans  &trans  &trans  &kp LCTRL
+                       &kp TAB  &kp SPACE  &mo 8   &trans  &trans  &trans
             >;
         };
 
@@ -294,7 +294,7 @@
 &kp F1  &kp F2  &none  &kp ESC  &kp M   &kp F7  &trans  &trans  &trans  &trans  &trans  &trans
 &kp F3  &kp F4  &kp H  &kp O    &kp I   &kp F   &trans  &trans  &trans  &trans  &trans  &trans
 &kp F5  &kp F6  &kp Z  &kp X    &kp C   &kp V   &trans  &trans  &trans  &trans  &trans  &trans
-                       &trans   &trans  &trans  &trans  &trans  &trans
+                       &tog 7   &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
