@@ -48,7 +48,7 @@ layers:
   - NEXT
   - PREV
   - Insert
-  - ''
+  - {t: GW, h: toggle}
   - LEFT GUI
   - Alt+1
   - '7'
@@ -304,9 +304,9 @@ layers:
   GW:
   - '1'
   - '2'
-  - Sft+!
+  - ''
   - W
-  - Sft+@
+  - ''
   - '7'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -328,8 +328,8 @@ layers:
   - Shift
   - '5'
   - '6'
-  - Sft+#
-  - Sft+$
+  - ''
+  - {t: GW, h: toggle}
   - '0'
   - '9'
   - {t: ▽, type: trans}
