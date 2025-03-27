@@ -282,7 +282,7 @@
 
         GW {
             bindings = <
-&kp N1  &kp N2  &none  &kp W    &none      &kp N7  &trans  &trans  &trans  &trans  &trans  &tog 7
+&kp N1  &kp N2  &none  &kp W    &kp E      &kp N7  &trans  &trans  &trans  &trans  &trans  &tog 7
 &kp N3  &kp N4  &kp A  &kp S    &kp D      &kp N8  &trans  &trans  &trans  &trans  &trans  &kp LSHFT
 &kp N5  &kp N6  &none  &tog 7   &kp N0     &kp N9  &trans  &trans  &trans  &trans  &trans  &kp LCTRL
                        &kp TAB  &kp SPACE  &mo 8   &trans  &trans  &trans
