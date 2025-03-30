@@ -341,7 +341,7 @@ layers:
   - {t: ↹, h: GW3}
   - ␣
   - GW2
-  - GW2
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   GW2:
