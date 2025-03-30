@@ -304,7 +304,7 @@ layers:
   GW:
   - '1'
   - '2'
-  - ''
+  - V
   - W
   - E
   - '7'
@@ -313,7 +313,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: GW, h: toggle}
+  - {t: ▽, type: trans}
   - '3'
   - '4'
   - A
@@ -325,7 +325,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Shift
+  - {t: ▽, type: trans}
   - '5'
   - '6'
   - ''
@@ -337,11 +337,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctrl
+  - {t: ▽, type: trans}
   - ↹
   - ␣
   - GW2
-  - {t: ▽, type: trans}
+  - GW2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   GW2:
@@ -351,37 +351,37 @@ layers:
   - ''
   - M
   - F7
+  - Ctl+1
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+4
   - F3
   - F4
   - ''
   - ''
   - ''
   - F
+  - Ctl+2
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+5
   - F5
   - F6
   - Z
   - X
   - C
-  - V
+  - ''
+  - Ctl+3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+6
+  - Ctl+6
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
