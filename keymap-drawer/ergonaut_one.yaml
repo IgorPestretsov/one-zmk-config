@@ -132,9 +132,9 @@ layers:
   adjust:
   - '`'
   - ''
-  - ''
-  - ''
-  - ''
+  - Left Click
+  - Mouse ↑
+  - Right Click
   - ''
   - Page Up
   - PAGE DOWN
@@ -144,9 +144,9 @@ layers:
   - {t: default, h: toggle}
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - Mouse ←
+  - Mouse ↓
+  - Mouse →
   - ''
   - ←
   - ↓
