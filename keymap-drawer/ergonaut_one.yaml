@@ -132,10 +132,10 @@ layers:
   adjust:
   - '`'
   - ''
-  - Left Click
-  - Mouse ↑
-  - Right Click
   - ''
+  - ''
+  - ''
+  - Ctl+Alt+F2
   - Page Up
   - PAGE DOWN
   - Caps Lock
@@ -144,10 +144,10 @@ layers:
   - {t: default, h: toggle}
   - ''
   - ''
-  - Mouse ←
-  - Mouse ↓
-  - Mouse →
   - ''
+  - ''
+  - ''
+  - Alt+Ctl+F3
   - ←
   - ↓
   - ↑
