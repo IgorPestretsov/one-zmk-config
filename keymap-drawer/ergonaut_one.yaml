@@ -135,7 +135,7 @@ layers:
   - ''
   - ''
   - ''
-  - Ctl+Alt+F2
+  - Ctl+Alt+F1
   - Page Up
   - PAGE DOWN
   - Caps Lock
@@ -147,7 +147,7 @@ layers:
   - ''
   - ''
   - ''
-  - Alt+Ctl+F3
+  - Alt+Ctl+F2
   - ←
   - ↓
   - ↑
@@ -158,8 +158,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - Alt+Ctl+F4
+  - Alt+Ctl+F3
   - {t: ▽, type: trans}
   - Home
   - End
