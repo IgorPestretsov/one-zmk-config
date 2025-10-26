@@ -194,6 +194,8 @@
             label = "TD_1_11";
             #binding-cells = <0>;
             bindings = <&kp LC(KP_N1)>, <&kp LA(LC(KP_N1))>;
+
+            tapping-term-ms = <300>;
         };
 
         td_3_13: td_3_13 {
@@ -201,6 +203,8 @@
             label = "TD_3_13";
             #binding-cells = <0>;
             bindings = <&kp LC(KP_N3)>, <&kp LA(LC(KP_N3))>;
+
+            tapping-term-ms = <300>;
         };
 
         td_4_14: td_4_14 {
@@ -208,6 +212,8 @@
             label = "TD_4_14";
             #binding-cells = <0>;
             bindings = <&kp LC(KP_N4)>, <&kp LA(LC(KP_N4))>;
+
+            tapping-term-ms = <300>;
         };
 
         td_2_12: td_2_12 {
@@ -215,6 +221,8 @@
             label = "TD_2_12";
             #binding-cells = <0>;
             bindings = <&kp LC(KP_N2)>, <&kp LA(LC(KP_N2))>;
+
+            tapping-term-ms = <300>;
         };
 
         td_5_15: td_5_15 {
@@ -222,6 +230,8 @@
             label = "TD_5_15";
             #binding-cells = <0>;
             bindings = <&kp LC(KP_N5)>, <&kp LA(LC(KP_N5))>;
+
+            tapping-term-ms = <300>;
         };
 
         td_6_16: td_6_16 {
@@ -229,6 +239,8 @@
             label = "TD_6_16";
             #binding-cells = <0>;
             bindings = <&kp LC(KP_N6)>, <&kp LA(LC(KP_N6))>;
+
+            tapping-term-ms = <300>;
         };
 
         td_7_17: td_7_17 {
@@ -236,6 +248,8 @@
             label = "TD_7_17";
             #binding-cells = <0>;
             bindings = <&kp LC(KP_N7)>, <&kp LA(LC(KP_N7))>;
+
+            tapping-term-ms = <300>;
         };
 
         td_8_18: td_8_18 {
@@ -243,6 +257,8 @@
             label = "TD_8_18";
             #binding-cells = <0>;
             bindings = <&kp LC(KP_N8)>, <&kp LA(LC(KP_N8))>;
+
+            tapping-term-ms = <300>;
         };
 
         td_9_19: td_9_19 {
@@ -250,6 +266,8 @@
             label = "TD_9_19";
             #binding-cells = <0>;
             bindings = <&kp LC(KP_N9)>, <&kp LA(LC(KP_N9))>;
+
+            tapping-term-ms = <300>;
         };
 
         td_10_20: td_10_20 {
@@ -257,6 +275,8 @@
             label = "TD_10_20";
             #binding-cells = <0>;
             bindings = <&kp LC(KP_N0)>, <&kp LA(LC(KP_N0))>;
+
+            tapping-term-ms = <300>;
         };
     };
 
