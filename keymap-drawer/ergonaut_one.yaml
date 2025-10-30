@@ -304,10 +304,6 @@ layers:
 combos:
 - p: [19, 20]
   k: Gui+S
-- p: [20, 21]
-  k: Ctl+Z
-- p: [8, 7]
-  k: {t: Ctrl, h: sticky}
 - p: [15, 16]
   k: Ctl+C
 - p: [4, 3]

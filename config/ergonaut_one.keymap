@@ -34,18 +34,6 @@
             bindings = <&kp RG(S) >;
         };
 
-        combo_undo {
-            timeout-ms = <50>;
-            key-positions = <20 21>;
-            bindings = <&kp LC(Z) >;
-        };
-
-        combo_cut {
-            timeout-ms = <50>;
-            key-positions = <8 7>;
-            bindings = <&sk RCTRL >;
-        };
-
         combo_copy {
             timeout-ms = <50>;
             key-positions = <15 16>;
