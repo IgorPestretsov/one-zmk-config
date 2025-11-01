@@ -80,12 +80,12 @@
 
         ctrl {
             bindings = <&kp LCTRL>;
-            key-positions = <19 20>;
+            key-positions = <19 20 21>;
         };
 
         alt {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <7 8>;
+            key-positions = <7 8 9>;
         };
     };
 };
