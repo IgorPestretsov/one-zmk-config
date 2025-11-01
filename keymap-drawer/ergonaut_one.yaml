@@ -94,8 +94,8 @@ layers:
   - ''
   - ''
   - Gui+S
-  - ''
-  - ''
+  - Ctrl
+  - LEFT ALT
   - '-'
   - Sft+-
   - ']'
@@ -318,7 +318,3 @@ combos:
   k: Sft+Alt
 - p: [31, 32, 33]
   k: Sft+Alt+Ctrl
-- p: [19, 20, 21]
-  k: Ctrl
-- p: [7, 8, 9]
-  k: LEFT ALT
