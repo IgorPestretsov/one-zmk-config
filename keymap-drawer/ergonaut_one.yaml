@@ -47,7 +47,7 @@ layers:
   - VOL UP
   - NEXT
   - PREV
-  - ''
+  - Gui+`
   - ''
   - LEFT GUI
   - ''
@@ -90,7 +90,7 @@ layers:
   - ''
   - '='
   - Sft+=
-  - Gui+`
+  - ''
   - ''
   - ''
   - Gui+S
