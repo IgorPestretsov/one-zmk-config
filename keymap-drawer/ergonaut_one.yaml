@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: ergonaut_one}
 layers:
   default:
-  - {t: F12, h: Gui+Sft+Alt+Ctrl}
+  - {t: Ctl+V, h: Gui+Sft+Alt+Ctrl}
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - '['
-  - {t: Ctl+`, h: Alt}
+  - {t: Ctl+C, h: Alt}
   - A
   - S
   - D
@@ -93,7 +93,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Gui+S
   - Ctrl
   - LEFT ALT
   - '-'
@@ -302,12 +302,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [19, 20]
-  k: Gui+S
-- p: [15, 16]
-  k: Ctl+C
-- p: [4, 3]
-  k: Ctl+V
 - p: [27, 28]
   k: Sft+Ctrl
 - p: [27, 26]
