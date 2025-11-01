@@ -48,7 +48,7 @@ layers:
   - NEXT
   - PREV
   - Gui+`
-  - ''
+  - Gui+C
   - LEFT GUI
   - ''
   - '7'
