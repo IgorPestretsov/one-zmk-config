@@ -94,8 +94,8 @@ layers:
   - ''
   - ''
   - Gui+S
-  - Ctrl
-  - LEFT ALT
+  - {t: Ctl+Z, h: Ctrl}
+  - {t: Ctl+A, h: LEFT ALT}
   - '-'
   - Sft+-
   - ']'

@@ -291,10 +291,10 @@
             //                              | TRANS |  TRANS   | TRANS |        | TRANS | TRANS  | TRANS |
 
             bindings = <
-&none    &kp EQUAL   &kp LS(EQUAL)  &none       &none       &none       &kp RG(S)   &kp LCTRL   &kp LEFT_ALT  &kp MINUS   &kp LS(MINUS)  &kp RBKT
-&none    &kp LS(N1)  &kp LS(N2)     &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)    &kp LS(N9)  &kp LS(N0)     &none
-&kp F12  &kp F1      &kp F2         &kp F3      &kp F4      &kp F5      &kp F6      &kp F7      &kp F8        &kp F9      &kp F10        &td_f112
-                                    &trans      &trans      &trans      &trans      &trans      &trans
+&none    &kp EQUAL   &kp LS(EQUAL)  &none       &none       &none       &kp RG(S)   &mt LCTRL LC(Z)  &mt LEFT_ALT LC(A)  &kp MINUS   &kp LS(MINUS)  &kp RBKT
+&none    &kp LS(N1)  &kp LS(N2)     &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)       &kp LS(N8)          &kp LS(N9)  &kp LS(N0)     &none
+&kp F12  &kp F1      &kp F2         &kp F3      &kp F4      &kp F5      &kp F6      &kp F7           &kp F8              &kp F9      &kp F10        &td_f112
+                                    &trans      &trans      &trans      &trans      &trans           &trans
             >;
         };
 
