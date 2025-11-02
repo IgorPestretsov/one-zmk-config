@@ -77,6 +77,21 @@
             key-positions = <31 32 33>;
             bindings = <&kp LS(LA(LCTRL))>;
         };
+
+        super {
+            bindings = <&sk LEFT_GUI>;
+            key-positions = <38 39>;
+        };
+
+        alt {
+            bindings = <&sk LALT>;
+            key-positions = <37 40>;
+        };
+
+        ctrl {
+            bindings = <&sk LCTRL>;
+            key-positions = <36 41>;
+        };
     };
 };
 

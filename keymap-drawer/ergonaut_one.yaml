@@ -318,3 +318,9 @@ combos:
   k: Sft+Alt
 - p: [31, 32, 33]
   k: Sft+Alt+Ctrl
+- p: [38, 39]
+  k: {t: LEFT GUI, h: sticky}
+- p: [37, 40]
+  k: {t: Alt, h: sticky}
+- p: [36, 41]
+  k: {t: Ctrl, h: sticky}
