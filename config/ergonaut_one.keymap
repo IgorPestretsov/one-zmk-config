@@ -33,49 +33,49 @@
         combo_left_ctrlshift {
             timeout-ms = <50>;
             key-positions = <27 28>;
-            bindings = <&kp LS(LCTRL) >;
+            bindings = <&sk LS(LCTRL)>;
         };
 
         combo_left_ctrlalt {
             timeout-ms = <50>;
             key-positions = <27 26>;
-            bindings = <&kp LA(LCTRL) >;
+            bindings = <&sk LA(LCTRL)>;
         };
 
         combo_leftshiftalt {
             timeout-ms = <50>;
             key-positions = <28 26>;
-            bindings = <&kp LS(LALT) >;
+            bindings = <&sk LS(LALT)>;
         };
 
         combo_lefctrltshiftalt {
             timeout-ms = <50>;
             key-positions = <28 26 27>;
-            bindings = <&kp LS(LA(LCTRL))>;
+            bindings = <&sk LS(LA(LCTRL))>;
         };
 
         combo_right_ctrlshift {
             timeout-ms = <50>;
             key-positions = <31 32>;
-            bindings = <&kp LS(LCTRL) >;
+            bindings = <&sk LS(LCTRL)>;
         };
 
         combo_right_ctrlalt {
             timeout-ms = <50>;
             key-positions = <32 33>;
-            bindings = <&kp LA(LCTRL) >;
+            bindings = <&sk LA(LCTRL)>;
         };
 
         combo_right_shiftalt {
             timeout-ms = <50>;
             key-positions = <31 33>;
-            bindings = <&kp LS(LALT) >;
+            bindings = <&sk LS(LALT)>;
         };
 
         combo_right_ctrlshiftalt {
             timeout-ms = <50>;
             key-positions = <31 32 33>;
-            bindings = <&kp LS(LA(LCTRL))>;
+            bindings = <&sk LS(LA(LCTRL))>;
         };
 
         super {

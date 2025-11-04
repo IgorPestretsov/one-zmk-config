@@ -303,21 +303,21 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [27, 28]
-  k: Sft+Ctrl
+  k: {t: Sft+Ctrl, h: sticky}
 - p: [27, 26]
-  k: Alt+Ctrl
+  k: {t: Alt+Ctrl, h: sticky}
 - p: [28, 26]
-  k: Sft+Alt
+  k: {t: Sft+Alt, h: sticky}
 - p: [28, 26, 27]
-  k: Sft+Alt+Ctrl
+  k: {t: Sft+Alt+Ctrl, h: sticky}
 - p: [31, 32]
-  k: Sft+Ctrl
+  k: {t: Sft+Ctrl, h: sticky}
 - p: [32, 33]
-  k: Alt+Ctrl
+  k: {t: Alt+Ctrl, h: sticky}
 - p: [31, 33]
-  k: Sft+Alt
+  k: {t: Sft+Alt, h: sticky}
 - p: [31, 32, 33]
-  k: Sft+Alt+Ctrl
+  k: {t: Sft+Alt+Ctrl, h: sticky}
 - p: [38, 39]
   k: {t: LEFT GUI, h: sticky}
 - p: [37, 40]
