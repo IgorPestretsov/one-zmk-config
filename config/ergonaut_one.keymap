@@ -22,61 +22,11 @@
 &sk {
     release-after-ms = <2000>;
     quick-release;
-
-    /delete-property/ ignore-modifiers;
 };
 
 / {
     combos {
         compatible = "zmk,combos";
-
-        combo_left_ctrlshift {
-            timeout-ms = <50>;
-            key-positions = <27 28>;
-            bindings = <&sk LS(LCTRL)>;
-        };
-
-        combo_left_ctrlalt {
-            timeout-ms = <50>;
-            key-positions = <27 26>;
-            bindings = <&sk LA(LCTRL)>;
-        };
-
-        combo_leftshiftalt {
-            timeout-ms = <50>;
-            key-positions = <28 26>;
-            bindings = <&sk LS(LALT)>;
-        };
-
-        combo_lefctrltshiftalt {
-            timeout-ms = <50>;
-            key-positions = <28 26 27>;
-            bindings = <&sk LS(LA(LCTRL))>;
-        };
-
-        combo_right_ctrlshift {
-            timeout-ms = <50>;
-            key-positions = <31 32>;
-            bindings = <&sk LS(LCTRL)>;
-        };
-
-        combo_right_ctrlalt {
-            timeout-ms = <50>;
-            key-positions = <32 33>;
-            bindings = <&sk LA(LCTRL)>;
-        };
-
-        combo_right_shiftalt {
-            timeout-ms = <50>;
-            key-positions = <31 33>;
-            bindings = <&sk LS(LALT)>;
-        };
-
-        combo_right_ctrlshiftalt {
-            timeout-ms = <50>;
-            key-positions = <31 32 33>;
-            bindings = <&sk LS(LA(LCTRL))>;
-        };
 
         super {
             bindings = <&sk LEFT_GUI>;
@@ -96,84 +46,7 @@
 };
 
 / {
-    macros {
-        ace_jump_pycharm: ace_jump_pycharm {
-            label = "Acejump";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <40>;
-            bindings = <&kp SPACE &kp SPACE &kp S>;
-        };
-
-        vim_past_from_zero: vim_past_from_zero {
-            label = "vimpastzero";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <40>;
-            bindings = <&kp LS(SQT) &kp N0 &kp P>;
-        };
-
-        vim_past_from_system: vim_past_from_system {
-            label = "vimpastsystem";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <40>;
-            bindings = <&kp LS(SQT) &kp LS(N8) &kp P>;
-        };
-
-        select_l: sc1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kt NUMBER_1 &kp S>;
-            label = "SC1";
-            wait-ms = <400>;
-        };
-
-        build_h: build_h {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kt B &kp H>;
-            label = "BUILD_H";
-            wait-ms = <400>;
-        };
-    };
-
     behaviors {
-        td_f112: tap_dance_f112 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "td_f112";
-            #binding-cells = <0>;
-            tapping-term-ms = <300>;
-            bindings = <&kp F11>, <&kp F12>;
-        };
-
-        td_78: tap_dance_78 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "td_78";
-            #binding-cells = <0>;
-            tapping-term-ms = <300>;
-            bindings = <&kp LC(KP_N7)>, <&kp LC(KP_N8)>;
-        };
-
-        td_49: tap_dance_49 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "td_49";
-            #binding-cells = <0>;
-            tapping-term-ms = <300>;
-            bindings = <&kp LC(KP_N4)>, <&kp LC(KP_N9)>;
-        };
-
-        td_50: tap_dance_50 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "td_50";
-            #binding-cells = <0>;
-            tapping-term-ms = <300>;
-            bindings = <&kp LC(KP_N5)>, <&kp LC(KP_N0)>;
-        };
-
         td_1_11: td_1_11 {
             compatible = "zmk,behavior-tap-dance";
             label = "TD_1_11";
@@ -306,10 +179,10 @@
             //                              | TRANS |  TRANS   | TRANS |        | TRANS | TRANS  | TRANS |
 
             bindings = <
-&none    &kp EQUAL   &kp LS(EQUAL)  &none       &none       &none       &kp RG(S)   &mt LCTRL LC(Z)  &mt LEFT_ALT LC(A)  &kp MINUS   &kp LS(MINUS)  &kp RBKT
-&none    &kp LS(N1)  &kp LS(N2)     &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)       &kp LS(N8)          &kp LS(N9)  &kp LS(N0)     &none
-&kp F12  &kp F1      &kp F2         &kp F3      &kp F4      &kp F5      &kp F6      &kp F7           &kp F8              &kp F9      &kp F10        &td_f112
-                                    &trans      &trans      &trans      &trans      &trans           &trans
+&none    &kp EQUAL   &kp LS(EQUAL)  &none       &none       &none       &kp RG(S)   &kp LC(Z)   &kp LC(A)   &kp MINUS   &kp LS(MINUS)  &kp RBKT
+&none    &kp LS(N1)  &kp LS(N2)     &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)     &none
+&kp F12  &kp F1      &kp F2         &kp F3      &kp F4      &kp F5      &kp F6      &kp F7      &kp F8      &kp F9      &kp F10        &kp F11
+                                    &trans      &trans      &trans      &trans      &trans      &trans
             >;
         };
 
@@ -321,10 +194,10 @@
             //           | TRANS |  GUI   | ace_jump_pycharm |        | TRANS | TRANS  | TRANS |
 
             bindings = <
-&kp GRAVE  &none  &none  &none   &none           &kp LC(LA(F1))  &kp PG_UP  &kp PAGE_DOWN  &kp CAPS   &none      &vim_past_from_zero  &none
-&none      &none  &none  &none   &none           &kp LA(LC(F2))  &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &kp K_APP            &none
-&none      &none  &none  &none   &kp LA(LC(F4))  &kp LA(LC(F3))  &trans     &kp HOME       &kp END    &trans     &none                &none
-                         &trans  &kp LGUI        &trans          &trans     &trans         &lt 4 TAB
+&kp GRAVE  &none  &none  &none   &none           &kp LC(LA(F1))  &none     &none     &none      &none      &none  &none
+&none      &none  &none  &none   &none           &kp LA(LC(F2))  &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &none  &none
+&none      &none  &none  &none   &kp LA(LC(F4))  &kp LA(LC(F3))  &none     &kp HOME  &kp END    &none      &none  &none
+                         &trans  &kp LGUI        &trans          &trans    &trans    &lt 4 TAB
             >;
         };
 

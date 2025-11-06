@@ -94,8 +94,8 @@ layers:
   - ''
   - ''
   - Gui+S
-  - {t: Ctl+Z, h: Ctrl}
-  - {t: Ctl+A, h: LEFT ALT}
+  - Ctl+Z
+  - Ctl+A
   - '-'
   - Sft+-
   - ']'
@@ -122,7 +122,7 @@ layers:
   - F8
   - F9
   - F10
-  - '&td_f112'
+  - F11
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -136,11 +136,11 @@ layers:
   - ''
   - ''
   - Ctl+Alt+F1
-  - Page Up
-  - PAGE DOWN
-  - Caps Lock
   - ''
-  - '&vim_past_from_zero'
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -152,7 +152,7 @@ layers:
   - ↓
   - ↑
   - →
-  - APP
+  - ''
   - ''
   - ''
   - ''
@@ -160,10 +160,10 @@ layers:
   - ''
   - Alt+Ctl+F4
   - Alt+Ctl+F3
-  - {t: ▽, type: trans}
+  - ''
   - Home
   - End
-  - {t: ▽, type: trans}
+  - ''
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -302,22 +302,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [27, 28]
-  k: {t: Sft+Ctrl, h: sticky}
-- p: [27, 26]
-  k: {t: Alt+Ctrl, h: sticky}
-- p: [28, 26]
-  k: {t: Sft+Alt, h: sticky}
-- p: [28, 26, 27]
-  k: {t: Sft+Alt+Ctrl, h: sticky}
-- p: [31, 32]
-  k: {t: Sft+Ctrl, h: sticky}
-- p: [32, 33]
-  k: {t: Alt+Ctrl, h: sticky}
-- p: [31, 33]
-  k: {t: Sft+Alt, h: sticky}
-- p: [31, 32, 33]
-  k: {t: Sft+Alt+Ctrl, h: sticky}
 - p: [38, 39]
   k: {t: LEFT GUI, h: sticky}
 - p: [37, 40]
