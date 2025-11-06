@@ -49,7 +49,7 @@ layers:
   - PREV
   - Gui+`
   - Gui+C
-  - LEFT GUI
+  - Hyper+F13
   - ''
   - '7'
   - '8'
