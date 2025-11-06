@@ -136,10 +136,10 @@ layers:
   - ''
   - ''
   - Ctl+Alt+F1
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: LEFT SHIFT, h: sticky}
+  - {t: Ctrl, h: sticky}
+  - {t: LEFT ALT, h: sticky}
+  - {t: LEFT GUI, h: sticky}
   - ''
   - ''
   - ''
