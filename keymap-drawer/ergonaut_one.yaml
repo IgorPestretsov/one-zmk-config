@@ -38,7 +38,7 @@ layers:
   - /
   - \
   - {t: ⌦, h: LSHIFT}
-  - ␣
+  - {t: ␣, h: LEFT GUI}
   - {t: ↹, h: lower}
   - {t: Esc, h: adjust}
   - {t: ⏎, h: raise}
