@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - ''''
-  - {t: Gui+␣, h: Ctrl}
+  - {t: Gui+␣, h: LEFT GUI}
   - Z
   - X
   - C
@@ -38,7 +38,7 @@ layers:
   - /
   - \
   - {t: ⌦, h: LSHIFT}
-  - {t: ␣, h: LEFT GUI}
+  - ␣
   - {t: ↹, h: lower}
   - {t: Esc, h: adjust}
   - {t: ⏎, h: raise}
