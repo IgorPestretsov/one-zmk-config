@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - ''''
-  - {t: Gui+␣, h: LEFT GUI}
+  - {t: Gui+␣, h: Ctrl}
   - Z
   - X
   - C
