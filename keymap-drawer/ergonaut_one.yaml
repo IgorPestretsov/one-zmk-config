@@ -48,8 +48,8 @@ layers:
   - NEXT
   - PREV
   - Gui+`
-  - Gui+C
-  - Hyper+F13
+  - {t: Gui+LEFT GUI, h: sticky}
+  - ''
   - ''
   - '7'
   - '8'
