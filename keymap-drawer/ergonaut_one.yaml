@@ -47,8 +47,8 @@ layers:
   - VOL UP
   - NEXT
   - PREV
-  - Gui+`
-  - {t: Gui+LEFT GUI, h: sticky}
+  - Gui+↹
+  - {t: LEFT GUI, h: sticky}
   - ''
   - ''
   - '7'
