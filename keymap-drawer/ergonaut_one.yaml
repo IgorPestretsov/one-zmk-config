@@ -131,16 +131,16 @@ layers:
   - {t: ▽, type: trans}
   adjust:
   - '`'
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: LEFT ALT, h: sticky}
+  - {t: Ctrl, h: sticky}
+  - {t: LEFT SHIFT, h: sticky}
+  - {t: LEFT GUI, h: sticky}
   - Ctl+Alt+F1
+  - ''
+  - {t: LEFT GUI, h: sticky}
   - {t: LEFT SHIFT, h: sticky}
   - {t: Ctrl, h: sticky}
   - {t: LEFT ALT, h: sticky}
-  - {t: LEFT GUI, h: sticky}
-  - ''
   - ''
   - ''
   - ''
