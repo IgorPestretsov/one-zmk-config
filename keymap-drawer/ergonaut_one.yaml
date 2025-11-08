@@ -308,3 +308,31 @@ combos:
   k: {t: Alt, h: sticky}
 - p: [36, 41]
   k: {t: Ctrl, h: sticky}
+- p: [32, 33]
+  k: Sft+Ctrl
+- p: [27, 26]
+  k: Sft+Ctrl
+- p: [32, 33, 34]
+  k: Sft+Ctl+LEFT ALT
+- p: [33, 34]
+  k: Ctl+LEFT ALT
+- p: [31, 32, 33]
+  k: Sft+Ctl+LEFT GUI
+- p: [31, 32]
+  k: Sft+LEFT GUI
+- p: [31, 33]
+  k: Ctl+LEFT GUI
+- p: [31, 34]
+  k: Alt+LEFT GUI
+- p: [27, 26, 25]
+  k: Sft+Ctl+LEFT ALT
+- p: [26, 25]
+  k: Ctl+LEFT ALT
+- p: [28, 27, 26]
+  k: Sft+Ctl+LEFT GUI
+- p: [28, 27]
+  k: Sft+LEFT GUI
+- p: [28, 26]
+  k: Ctl+LEFT GUI
+- p: [28, 25]
+  k: Alt+LEFT GUI
