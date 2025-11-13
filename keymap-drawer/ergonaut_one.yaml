@@ -48,8 +48,8 @@ layers:
   - NEXT
   - PREV
   - Gui+↹
-  - {t: LEFT GUI, h: sticky}
-  - ''
+  - Gui+G
+  - Gui+S
   - ''
   - '7'
   - '8'
@@ -167,7 +167,7 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - Gui
+  - {t: Gui, h: sticky}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
