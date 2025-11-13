@@ -93,7 +93,7 @@ layers:
   - ''
   - ''
   - ''
-  - Gui+S
+  - Gui+Sft+P
   - Ctl+Z
   - Ctl+A
   - '-'
