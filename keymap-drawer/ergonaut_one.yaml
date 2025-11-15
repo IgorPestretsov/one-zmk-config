@@ -136,7 +136,7 @@ layers:
   - {t: LEFT SHIFT, h: sticky}
   - {t: LEFT GUI, h: sticky}
   - Ctl+Alt+F1
-  - ''
+  - Gui+D
   - {t: LEFT GUI, h: sticky}
   - {t: LEFT SHIFT, h: sticky}
   - {t: Ctrl, h: sticky}
