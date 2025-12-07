@@ -44,9 +44,9 @@ layers:
   - {t: ⏎, h: raise}
   - {t: ⌫, h: RSHIFT}
   lower:
-  - VOL UP
-  - NEXT
-  - PREV
+  - Alt+K
+  - Alt+H
+  - Alt+L
   - Gui+↹
   - Gui+G
   - Gui+S
@@ -56,7 +56,7 @@ layers:
   - '9'
   - ''
   - ''
-  - PLAY PAUSE
+  - ''
   - '&td_1_11'
   - '&td_2_12'
   - '&td_3_13'
@@ -68,7 +68,7 @@ layers:
   - '6'
   - .
   - ''
-  - VOL DN
+  - Alt+J
   - '&td_6_16'
   - '&td_7_17'
   - '&td_8_18'
@@ -141,7 +141,7 @@ layers:
   - {t: LEFT SHIFT, h: sticky}
   - {t: Ctrl, h: sticky}
   - {t: LEFT ALT, h: sticky}
-  - ''
+  - VOLUME UP
   - ''
   - ''
   - ''
@@ -152,8 +152,8 @@ layers:
   - ↓
   - ↑
   - →
-  - ''
-  - ''
+  - NEXT
+  - PP
   - ''
   - ''
   - ''
@@ -164,8 +164,8 @@ layers:
   - Home
   - End
   - ''
-  - ''
-  - ''
+  - PREV
+  - VOL DN
   - {t: ▽, type: trans}
   - {t: Gui, h: sticky}
   - {t: ▽, type: trans}
