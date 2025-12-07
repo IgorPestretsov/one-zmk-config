@@ -234,10 +234,10 @@
             //                                  | TRANS |  TRANS   | TRANS |            | TRANS | TRANS  | TRANS |
 
             bindings = <
-&none  &kp LA(H)  &kp LA(L)  &kp LG(TAB)  &kp LG(G)  &kp LG(S)  &none   &kp N7  &kp N8    &kp N9  &none    &none
-&none  &td_1_11   &td_2_12   &td_3_13     &td_4_14   &td_5_15   &none   &kp N4  &kp N5    &kp N6  &kp DOT  &none
-&none  &td_6_16   &td_7_17   &td_8_18     &td_9_19   &td_10_20  &none   &kp N1  &kp N2    &kp N3  &kp N0   &none
-                             &lt 4 TAB    &trans     &trans     &trans  &trans  &kp BSPC
+&none  &kp F6    &none     &kp LG(TAB)  &kp LG(G)  &kp LG(S)  &none   &kp N7  &kp N8    &kp N9  &none    &none
+&none  &td_1_11  &td_2_12  &td_3_13     &td_4_14   &td_5_15   &none   &kp N4  &kp N5    &kp N6  &kp DOT  &none
+&none  &td_6_16  &td_7_17  &td_8_18     &td_9_19   &td_10_20  &none   &kp N1  &kp N2    &kp N3  &kp N0   &none
+                           &lt 4 TAB    &trans     &trans     &trans  &trans  &kp BSPC
             >;
         };
 
