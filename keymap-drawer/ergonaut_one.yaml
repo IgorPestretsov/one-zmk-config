@@ -44,7 +44,7 @@ layers:
   - {t: ⏎, h: raise}
   - {t: ⌫, h: RSHIFT}
   lower:
-  - Alt+K
+  - ''
   - Alt+H
   - Alt+L
   - Gui+↹
@@ -68,7 +68,7 @@ layers:
   - '6'
   - .
   - ''
-  - Alt+J
+  - ''
   - '&td_6_16'
   - '&td_7_17'
   - '&td_8_18'
