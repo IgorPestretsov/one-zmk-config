@@ -44,7 +44,7 @@ layers:
   - {t: ⏎, h: raise}
   - {t: ⌫, h: RSHIFT}
   lower:
-  - ''
+  - Gui+P
   - F6
   - ''
   - Gui+↹
@@ -56,7 +56,7 @@ layers:
   - '9'
   - ''
   - ''
-  - ''
+  - Gui+N
   - '&td_1_11'
   - '&td_2_12'
   - '&td_3_13'
