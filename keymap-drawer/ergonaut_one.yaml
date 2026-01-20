@@ -16,7 +16,7 @@ layers:
   - {t: Ctl+C, h: Alt}
   - {t: A, h: Gui+A}
   - S
-  - D
+  - {t: D, h: Gui+D}
   - F
   - G
   - H
@@ -30,7 +30,7 @@ layers:
   - X
   - C
   - V
-  - B
+  - {t: B, h: Gui+B}
   - N
   - M
   - ','
