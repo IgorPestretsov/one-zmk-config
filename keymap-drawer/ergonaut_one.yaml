@@ -14,7 +14,7 @@ layers:
   - P
   - '['
   - {t: Ctl+C, h: Alt}
-  - {t: A, h: Ctl+A}
+  - {t: A, h: Gui+A}
   - S
   - D
   - F
