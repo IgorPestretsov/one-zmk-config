@@ -3,7 +3,7 @@ layers:
   default:
   - {t: Ctl+V, h: Gui+Sft+Alt+Ctrl}
   - Q
-  - W
+  - {t: W, h: Gui+W}
   - E
   - R
   - T
