@@ -17,7 +17,7 @@ layers:
   - {t: A, h: Gui+A}
   - S
   - {t: D, h: Gui+D}
-  - F
+  - {t: F, h: Gui+Sft+F}
   - G
   - H
   - J
