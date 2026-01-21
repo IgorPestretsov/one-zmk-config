@@ -6,7 +6,7 @@ layers:
   - {t: W, h: Gui+W}
   - E
   - R
-  - T
+  - {t: T, h: Gui+T}
   - Y
   - U
   - I
