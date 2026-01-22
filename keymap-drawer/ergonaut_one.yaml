@@ -2,8 +2,8 @@ layout: {zmk_keyboard: ergonaut_one}
 layers:
   default:
   - {t: Ctl+V, h: Gui+Sft+Alt+Ctrl}
-  - Q
-  - {t: W, h: Gui+W}
+  - {t: Q, h: Gui+W}
+  - W
   - E
   - R
   - {t: T, h: Gui+Sft+Z}
