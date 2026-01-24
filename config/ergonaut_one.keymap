@@ -214,9 +214,9 @@
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <200>;
-            require-prior-idle-ms = <125>;
-            hold-trigger-key-positions = <11>;
+            tapping-term-ms = <300>;
+            require-prior-idle-ms = <175>;
+            hold-trigger-key-positions = <35>;
             quick-tap-ms = <175>;
         };
     };
