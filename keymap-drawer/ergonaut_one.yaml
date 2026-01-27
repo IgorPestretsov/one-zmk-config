@@ -46,7 +46,7 @@ layers:
   lower:
   - Gui+P
   - F6
-  - ''
+  - Gui+F4
   - Gui+↹
   - Gui+G
   - Gui+S
