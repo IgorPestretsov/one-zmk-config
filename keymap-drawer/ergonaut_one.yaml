@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - '['
+  - {t: '[', h: Sft+Gui+T}
   - {t: Ctl+C, h: Alt}
   - {t: A, h: Gui+A}
   - S
