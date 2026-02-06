@@ -19,10 +19,10 @@ layers:
   - {t: D, h: Gui+D}
   - {t: F, h: Gui+Sft+F}
   - G
-  - H
-  - J
-  - {t: K, h: Ctl+K}
-  - L
+  - {t: H, h: Gui+←}
+  - {t: J, h: Gui+↓}
+  - {t: K, h: Gui+UP ARROW}
+  - {t: L, h: Gui+→}
   - ;
   - ''''
   - {t: Gui+␣, h: Ctrl}
