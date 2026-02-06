@@ -45,7 +45,7 @@ layers:
   - {t: ⌫, h: RSHIFT}
   lower:
   - Gui+P
-  - {t: LEFT GUI, h: sticky}
+  - ''
   - Gui+F4
   - Gui+↹
   - Gui+G
@@ -134,10 +134,10 @@ layers:
   - {t: LEFT ALT, h: sticky}
   - {t: Ctrl, h: sticky}
   - {t: LEFT SHIFT, h: sticky}
-  - {t: LEFT GUI, h: sticky}
+  - ''
   - Ctl+Alt+F1
   - Gui+D
-  - {t: LEFT GUI, h: sticky}
+  - ''
   - {t: LEFT SHIFT, h: sticky}
   - {t: Ctrl, h: sticky}
   - {t: LEFT ALT, h: sticky}

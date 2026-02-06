@@ -214,7 +214,7 @@
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <300>;
+            tapping-term-ms = <280>;
             require-prior-idle-ms = <175>;
             hold-trigger-key-positions = <35>;
             quick-tap-ms = <175>;
@@ -227,7 +227,7 @@
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <300>;
+            tapping-term-ms = <280>;
             require-prior-idle-ms = <200>;
             quick-tap-ms = <175>;
         };
@@ -259,10 +259,10 @@
             //                                  | TRANS |  TRANS   | TRANS |            | TRANS | TRANS  | TRANS |
 
             bindings = <
-&kp LG(P)  &sk LEFT_GUI  &kp LG(F4)  &kp LG(TAB)  &kp LG(G)  &kp LG(S)  &none   &kp N7  &kp N8    &kp N9  &none    &none
-&kp LG(N)  &td_1_11      &td_2_12    &td_3_13     &td_4_14   &td_5_15   &none   &kp N4  &kp N5    &kp N6  &kp DOT  &none
-&kp LG(I)  &td_6_16      &td_7_17    &td_8_18     &td_9_19   &td_10_20  &none   &kp N1  &kp N2    &kp N3  &kp N0   &none
-                                     &lt 4 TAB    &trans     &trans     &trans  &trans  &kp BSPC
+&kp LG(P)  &none     &kp LG(F4)  &kp LG(TAB)  &kp LG(G)  &kp LG(S)  &none   &kp N7  &kp N8    &kp N9  &none    &none
+&kp LG(N)  &td_1_11  &td_2_12    &td_3_13     &td_4_14   &td_5_15   &none   &kp N4  &kp N5    &kp N6  &kp DOT  &none
+&kp LG(I)  &td_6_16  &td_7_17    &td_8_18     &td_9_19   &td_10_20  &none   &kp N1  &kp N2    &kp N3  &kp N0   &none
+                                 &lt 4 TAB    &trans     &trans     &trans  &trans  &kp BSPC
             >;
         };
 
@@ -289,10 +289,10 @@
             //           | TRANS |  GUI   | ace_jump_pycharm |        | TRANS | TRANS  | TRANS |
 
             bindings = <
-&kp GRAVE  &sk LEFT_ALT  &sk LCTRL  &sk LEFT_SHIFT  &sk LEFT_GUI    &kp LC(LA(F1))  &kp LG(D)  &sk LEFT_GUI  &sk LEFT_SHIFT  &sk LCTRL  &sk LEFT_ALT  &kp K_VOLUME_UP
-&none      &none         &none      &none           &none           &kp LA(LC(F2))  &kp LEFT   &kp DOWN      &kp UP          &kp RIGHT  &kp K_NEXT    &kp K_PP
-&kp TILDE  &none         &none      &none           &kp LA(LC(F4))  &kp LA(LC(F3))  &none      &kp HOME      &kp END         &none      &kp K_PREV    &kp K_VOL_DN
-                                    &trans          &sk LGUI        &trans          &trans     &trans        &lt 4 TAB
+&kp GRAVE  &sk LEFT_ALT  &sk LCTRL  &sk LEFT_SHIFT  &none           &kp LC(LA(F1))  &kp LG(D)  &none     &sk LEFT_SHIFT  &sk LCTRL  &sk LEFT_ALT  &kp K_VOLUME_UP
+&none      &none         &none      &none           &none           &kp LA(LC(F2))  &kp LEFT   &kp DOWN  &kp UP          &kp RIGHT  &kp K_NEXT    &kp K_PP
+&kp TILDE  &none         &none      &none           &kp LA(LC(F4))  &kp LA(LC(F3))  &none      &kp HOME  &kp END         &none      &kp K_PREV    &kp K_VOL_DN
+                                    &trans          &sk LGUI        &trans          &trans     &trans    &lt 4 TAB
             >;
         };
 
