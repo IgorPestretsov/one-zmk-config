@@ -232,10 +232,10 @@
             //                           | SHIFT/DEL | SPC | LWR/TAB |   | ADJ/ESC | RSE/ENT| SHIFT/BackSPACE |
 
             bindings = <
-&mt LG(LS(LA(LCTRL))) LC(V)  &super_key_behavior LG(W) Q  &kp W  &kp E                        &kp R                            &super_key_behavior LG(LS(Z)) T  &kp Y      &kp U      &kp I            &kp O    &kp P     &super_key_behavior LS(LG(T)) LBKT
-&mt LALT LC(C)               &super_key_behavior LG(A) A  &kp S  &super_key_behavior LG(D) D  &super_key_behavior LG(LS(F)) F  &kp G                            &kp H      &kp J      &kp K            &kp L    &kp SEMI  &kp SQT
-&mt LCTRL RG(SPACE)          &kp Z                        &kp X  &kp C                        &kp V                            &super_key_behavior LG(B) B      &kp N      &kp M      &kp COMMA        &kp DOT  &kp FSLH  &kp BSLH
-                                                                 &mt LSHIFT DEL               &kp SPACE                        &lt 1 TAB                        &lt 3 ESC  &lt 2 RET  &mt RSHIFT BSPC
+&mt LG(LS(LA(LCTRL))) LC(V)  &super_key_behavior LG(W) Q  &kp W  &kp E                        &kp R                            &super_key_behavior LG(LS(Z)) T  &kp Y      &super_key_behavior LA(U) U  &kp I                        &kp O    &kp P     &super_key_behavior LS(LG(T)) LBKT
+&mt LALT LC(C)               &super_key_behavior LG(A) A  &kp S  &super_key_behavior LG(D) D  &super_key_behavior LG(LS(F)) F  &kp G                            &kp H      &kp J                        &super_key_behavior LC(K) K  &kp L    &kp SEMI  &kp SQT
+&mt LCTRL RG(SPACE)          &kp Z                        &kp X  &kp C                        &kp V                            &super_key_behavior LG(B) B      &kp N      &kp M                        &kp COMMA                    &kp DOT  &kp FSLH  &kp BSLH
+                                                                 &mt LSHIFT DEL               &kp SPACE                        &lt 1 TAB                        &lt 3 ESC  &lt 2 RET                    &mt RSHIFT BSPC
             >;
         };
 

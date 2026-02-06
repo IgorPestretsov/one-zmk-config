@@ -8,7 +8,7 @@ layers:
   - R
   - {t: T, h: Gui+Sft+Z}
   - Y
-  - U
+  - {t: U, h: Alt+U}
   - I
   - O
   - P
@@ -21,7 +21,7 @@ layers:
   - G
   - H
   - J
-  - K
+  - {t: K, h: Ctl+K}
   - L
   - ;
   - ''''
