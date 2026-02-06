@@ -232,9 +232,9 @@
             //                           | SHIFT/DEL | SPC | LWR/TAB |   | ADJ/ESC | RSE/ENT| SHIFT/BackSPACE |
 
             bindings = <
-&mt LG(LS(LA(LCTRL))) LC(V)  &super_key_behavior LG(W) Q  &kp W  &kp E                        &kp R                            &super_key_behavior LG(LS(Z)) T  &kp Y      &super_key_behavior LA(U) U  &kp I                        &kp O    &kp P     &super_key_behavior LS(LG(T)) LBKT
-&mt LALT LC(C)               &super_key_behavior LG(A) A  &kp S  &super_key_behavior LG(D) D  &super_key_behavior LG(LS(F)) F  &kp G                            &kp H      &kp J                        &super_key_behavior LC(K) K  &kp L    &kp SEMI  &kp SQT
-&mt LCTRL RG(SPACE)          &kp Z                        &kp X  &kp C                        &kp V                            &super_key_behavior LG(B) B      &kp N      &kp M                        &kp COMMA                    &kp DOT  &kp FSLH  &kp BSLH
+&mt LG(LS(LA(LCTRL))) LC(V)  &super_key_behavior LG(W) Q  &kp W  &kp E                        &kp R                            &super_key_behavior LG(LS(Z)) T  &kp Y      &super_key_behavior LA(U) U  &kp I                        &super_key_behavior LG(O) O  &kp P     &super_key_behavior LS(LG(T)) LBKT
+&mt LALT LC(C)               &super_key_behavior LG(A) A  &kp S  &super_key_behavior LG(D) D  &super_key_behavior LG(LS(F)) F  &kp G                            &kp H      &kp J                        &super_key_behavior LC(K) K  &kp L                        &kp SEMI  &kp SQT
+&mt LCTRL RG(SPACE)          &kp Z                        &kp X  &kp C                        &kp V                            &super_key_behavior LG(B) B      &kp N      &kp M                        &kp COMMA                    &kp DOT                      &kp FSLH  &kp BSLH
                                                                  &mt LSHIFT DEL               &kp SPACE                        &lt 1 TAB                        &lt 3 ESC  &lt 2 RET                    &mt RSHIFT BSPC
             >;
         };
@@ -247,10 +247,10 @@
             //                                  | TRANS |  TRANS   | TRANS |            | TRANS | TRANS  | TRANS |
 
             bindings = <
-&kp LG(P)  &kp F6    &kp LG(F4)  &kp LG(TAB)  &kp LG(G)  &kp LG(S)  &none   &kp N7  &kp N8    &kp N9  &none    &none
-&kp LG(N)  &td_1_11  &td_2_12    &td_3_13     &td_4_14   &td_5_15   &none   &kp N4  &kp N5    &kp N6  &kp DOT  &none
-&kp LG(I)  &td_6_16  &td_7_17    &td_8_18     &td_9_19   &td_10_20  &none   &kp N1  &kp N2    &kp N3  &kp N0   &none
-                                 &lt 4 TAB    &trans     &trans     &trans  &trans  &kp BSPC
+&kp LG(P)  &sk LEFT_GUI  &kp LG(F4)  &kp LG(TAB)  &kp LG(G)  &kp LG(S)  &none   &kp N7  &kp N8    &kp N9  &none    &none
+&kp LG(N)  &td_1_11      &td_2_12    &td_3_13     &td_4_14   &td_5_15   &none   &kp N4  &kp N5    &kp N6  &kp DOT  &none
+&kp LG(I)  &td_6_16      &td_7_17    &td_8_18     &td_9_19   &td_10_20  &none   &kp N1  &kp N2    &kp N3  &kp N0   &none
+                                     &lt 4 TAB    &trans     &trans     &trans  &trans  &kp BSPC
             >;
         };
 
