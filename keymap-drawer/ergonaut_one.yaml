@@ -27,14 +27,14 @@ layers:
   - {t: '''', h: LEFT ALT}
   - {t: Gui+␣, h: Ctrl}
   - Z
-  - X
-  - C
-  - V
-  - {t: B, h: Gui+B}
-  - N
-  - M
-  - ','
-  - .
+  - {t: LEFT ALT, h: X}
+  - {t: C, h: Ctrl}
+  - {t: V, h: LEFT SHIFT}
+  - {t: B, h: LEFT GUI}
+  - {t: N, h: RIGHT GUI}
+  - {t: M, h: RIGHT SHIFT}
+  - {t: ',', h: Ctrl}
+  - {t: ., h: RIGHT ALT}
   - /
   - {t: \, h: Ctrl}
   - {t: ⌦, h: LSHIFT}
