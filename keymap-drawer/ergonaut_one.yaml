@@ -13,7 +13,7 @@ layers:
   - {t: O, h: Gui+O}
   - P
   - {t: '[', h: Sft+Gui+T}
-  - {t: Ctl+C, h: Alt}
+  - Ctl+C
   - {t: A, h: Gui+A}
   - S
   - {t: D, h: Gui+D}
@@ -24,8 +24,8 @@ layers:
   - {t: K, h: Gui+UP ARROW}
   - {t: L, h: Gui+→}
   - ;
-  - {t: '''', h: LEFT ALT}
-  - {t: Gui+␣, h: Ctrl}
+  - ''''
+  - Gui+␣
   - Z
   - {t: X, h: LEFT ALT}
   - {t: C, h: Ctrl}
@@ -36,9 +36,9 @@ layers:
   - {t: ',', h: Ctrl}
   - {t: ., h: RIGHT ALT}
   - /
-  - {t: \, h: Ctrl}
+  - \
   - {t: ⌦, h: LSHIFT}
-  - {t: ␣, h: LEFT GUI}
+  - ␣
   - {t: ↹, h: lower}
   - {t: Esc, h: adjust}
   - {t: ⏎, h: raise}
@@ -94,8 +94,8 @@ layers:
   - ''
   - ''
   - Gui+Sft+P
-  - Ctl+Z
-  - Ctl+A
+  - ''
+  - ''
   - '-'
   - Sft+-
   - ']'
