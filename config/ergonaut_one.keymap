@@ -28,21 +28,6 @@
     combos {
         compatible = "zmk,combos";
 
-        super {
-            bindings = <&sk LEFT_GUI>;
-            key-positions = <38 39>;
-        };
-
-        alt {
-            bindings = <&sk LALT>;
-            key-positions = <37 40>;
-        };
-
-        ctrl {
-            bindings = <&sk LCTRL>;
-            key-positions = <36 41>;
-        };
-
         r_shift_ctrl {
             bindings = <&kp LS(LCTRL)>;
             key-positions = <32 33>;
@@ -220,9 +205,9 @@
             quick-tap-ms = <175>;
         };
 
-        space_gui: space_gui {
+        hold_tap_advanced: hold_tap_advanced {
             compatible = "zmk,behavior-hold-tap";
-            label = "SPACE_GUI";
+            label = "HOLD_TAP_ADVANCED";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -244,10 +229,10 @@
             //                           | SHIFT/DEL | SPC | LWR/TAB |   | ADJ/ESC | RSE/ENT| SHIFT/BackSPACE |
 
             bindings = <
-&mt LG(LS(LA(LCTRL))) LC(V)  &super_key_behavior LG(W) Q  &kp W  &kp E                        &kp R                            &super_key_behavior LG(LS(Z)) T  &kp Y                           &super_key_behavior LA(U) U     &kp I                               &super_key_behavior LG(O) O      &kp P     &super_key_behavior LS(LG(T)) LBKT
-&mt LALT LC(C)               &super_key_behavior LG(A) A  &kp S  &super_key_behavior LG(D) D  &super_key_behavior LG(LS(F)) F  &kp G                            &super_key_behavior LG(LEFT) H  &super_key_behavior LG(DOWN) J  &super_key_behavior LG(UP_ARROW) K  &super_key_behavior LG(RIGHT) L  &kp SEMI  &kp SQT
-&mt LCTRL RG(SPACE)          &kp Z                        &kp X  &kp C                        &kp V                            &super_key_behavior LG(B) B      &kp N                           &kp M                           &kp COMMA                           &kp DOT                          &kp FSLH  &kp BSLH
-                                                                 &mt LSHIFT DEL               &space_gui LEFT_GUI SPACE        &lt 1 TAB                        &lt 3 ESC                       &lt 2 RET                       &mt RSHIFT BSPC
+&mt LG(LS(LA(LCTRL))) LC(V)  &super_key_behavior LG(W) Q  &kp W  &kp E                        &kp R                              &super_key_behavior LG(LS(Z)) T  &super_key_behavior LG(Y) Y     &super_key_behavior LA(U) U     &kp I                               &super_key_behavior LG(O) O      &kp P     &super_key_behavior LS(LG(T)) LBKT
+&mt LALT LC(C)               &super_key_behavior LG(A) A  &kp S  &super_key_behavior LG(D) D  &super_key_behavior LG(LS(F)) F    &kp G                            &super_key_behavior LG(LEFT) H  &super_key_behavior LG(DOWN) J  &super_key_behavior LG(UP_ARROW) K  &super_key_behavior LG(RIGHT) L  &kp SEMI  &hold_tap_advanced LEFT_ALT SQT
+&mt LCTRL RG(SPACE)          &kp Z                        &kp X  &kp C                        &kp V                              &super_key_behavior LG(B) B      &kp N                           &kp M                           &kp COMMA                           &kp DOT                          &kp FSLH  &hold_tap_advanced LCTRL BSLH
+                                                                 &mt LSHIFT DEL               &hold_tap_advanced LEFT_GUI SPACE  &lt 1 TAB                        &lt 3 ESC                       &lt 2 RET                       &mt RSHIFT BSPC
             >;
         };
 

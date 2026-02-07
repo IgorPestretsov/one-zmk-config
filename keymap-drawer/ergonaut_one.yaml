@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - {t: T, h: Gui+Sft+Z}
-  - Y
+  - {t: Y, h: Gui+Y}
   - {t: U, h: Alt+U}
   - I
   - {t: O, h: Gui+O}
@@ -24,7 +24,7 @@ layers:
   - {t: K, h: Gui+UP ARROW}
   - {t: L, h: Gui+→}
   - ;
-  - ''''
+  - {t: '''', h: LEFT ALT}
   - {t: Gui+␣, h: Ctrl}
   - Z
   - X
@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - /
-  - \
+  - {t: \, h: Ctrl}
   - {t: ⌦, h: LSHIFT}
   - {t: ␣, h: LEFT GUI}
   - {t: ↹, h: lower}
@@ -302,12 +302,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [38, 39]
-  k: {t: LEFT GUI, h: sticky}
-- p: [37, 40]
-  k: {t: Alt, h: sticky}
-- p: [36, 41]
-  k: {t: Ctrl, h: sticky}
 - p: [32, 33]
   k: Sft+Ctrl
 - p: [27, 26]
