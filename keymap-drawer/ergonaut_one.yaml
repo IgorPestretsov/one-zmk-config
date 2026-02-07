@@ -27,7 +27,7 @@ layers:
   - {t: '''', h: LEFT ALT}
   - {t: Gui+␣, h: Ctrl}
   - Z
-  - {t: LEFT ALT, h: X}
+  - {t: X, h: LEFT ALT}
   - {t: C, h: Ctrl}
   - {t: V, h: LEFT SHIFT}
   - {t: B, h: LEFT GUI}
