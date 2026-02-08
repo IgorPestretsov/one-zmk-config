@@ -144,6 +144,27 @@
             require-prior-idle-ms = <200>;
             quick-tap-ms = <175>;
         };
+
+        mt_advanced: mt_advanced {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MT_ADVANCED";
+            bindings = <&lt>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <280>;
+            require-prior-idle-ms = <200>;
+            quick-tap-ms = <175>;
+        };
+    };
+
+    macros {
+        claude_reset: reset {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp FSLH &kp R &kp E &kp S &kp E &kp T>;
+            label = "RESET";
+        };
     };
 
     keymap {
@@ -160,7 +181,7 @@
 &mt LG(LS(LA(LCTRL))) LC(V)  &super_key_behavior LG(W) Q  &kp W                          &kp E                        &kp R                            &super_key_behavior LG(LS(Z)) T  &super_key_behavior LG(Y) Y     &super_key_behavior LA(U) U       &kp I                               &super_key_behavior LG(O) O       &kp P     &super_key_behavior LS(LG(T)) LBKT
 &kp LC(C)                    &super_key_behavior LG(A) A  &kp S                          &super_key_behavior LG(D) D  &super_key_behavior LG(LS(F)) F  &kp G                            &super_key_behavior LG(LEFT) H  &super_key_behavior LG(DOWN) J    &super_key_behavior LG(UP_ARROW) K  &super_key_behavior LG(RIGHT) L   &kp SEMI  &kp SQT
 &kp RG(SPACE)                &kp Z                        &hold_tap_advanced LEFT_ALT X  &hold_tap_advanced LCTRL C   &hold_tap_advanced LEFT_SHIFT V  &hold_tap_advanced LEFT_GUI B    &hold_tap_advanced RIGHT_GUI N  &hold_tap_advanced RIGHT_SHIFT M  &hold_tap_advanced RCTRL COMMA      &hold_tap_advanced RIGHT_ALT DOT  &kp FSLH  &kp BSLH
-                                                                                         &mt LSHIFT DEL               &kp SPACE                        &lt 1 TAB                        &lt 3 ESC                       &lt 2 RET                         &mt RSHIFT BSPC
+                                                                                         &mt LSHIFT DEL               &mt_advanced 4 SPACE             &lt 1 TAB                        &lt 3 ESC                       &lt 2 RET                         &mt RSHIFT BSPC
             >;
         };
 
@@ -175,7 +196,7 @@
 &kp LG(P)  &none     &kp LG(F4)  &kp LG(TAB)  &kp LG(G)  &kp LG(S)  &none   &kp N7  &kp N8    &kp N9  &none    &none
 &kp LG(N)  &td_1_11  &td_2_12    &td_3_13     &td_4_14   &td_5_15   &none   &kp N4  &kp N5    &kp N6  &kp DOT  &none
 &kp LG(I)  &td_6_16  &td_7_17    &td_8_18     &td_9_19   &td_10_20  &none   &kp N1  &kp N2    &kp N3  &kp N0   &none
-                                 &lt 4 TAB    &trans     &trans     &trans  &trans  &kp BSPC
+                                 &lt 5 TAB    &trans     &trans     &trans  &trans  &kp BSPC
             >;
         };
 
@@ -205,13 +226,22 @@
 &kp GRAVE  &none  &none  &none   &none           &kp LC(LA(F1))  &none     &none     &none      &none      &none       &kp K_VOLUME_UP
 &none      &none  &none  &none   &none           &kp LA(LC(F2))  &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &kp K_NEXT  &kp K_PP
 &kp TILDE  &none  &none  &none   &kp LA(LC(F4))  &kp LA(LC(F3))  &none     &kp HOME  &kp END    &none      &kp K_PREV  &kp K_VOL_DN
-                         &trans  &sk LGUI        &trans          &trans    &trans    &lt 4 TAB
+                         &trans  &sk LGUI        &trans          &trans    &trans    &lt 5 TAB
+            >;
+        };
+
+        macros {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &claude_reset  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans         &trans  &trans  &trans
             >;
         };
 
         tech_layer {
             bindings = <
-&bootloader  &none         &none         &none         &none         &tog 5        &none         &none         &none         &none         &none         &bootloader
+&bootloader  &none         &none         &none         &none         &tog 6        &none         &none         &none         &none         &none         &bootloader
 &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
 &sys_reset   &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &sys_reset
                                          &trans        &none         &trans        &none         &trans        &trans
@@ -220,10 +250,10 @@
 
         shooter {
             bindings = <
-&kp N1  &kp TAB    &kp Q  &kp W     &kp E      &kp R  &kp Y    &kp U      &kp I      &kp O    &kp P     &tog 5
+&kp N1  &kp TAB    &kp Q  &kp W     &kp E      &kp R  &kp Y    &kp U      &kp I      &kp O    &kp P     &tog 6
 &kp N2  &kp LSHFT  &kp A  &kp S     &kp D      &kp F  &kp H    &kp J      &kp K      &kp L    &kp SEMI  &trans
 &kp N3  &kp LCTRL  &kp Z  &kp X     &kp C      &kp V  &kp N    &kp M      &kp COMMA  &kp DOT  &kp FSLH  &trans
-                          &kp LALT  &kp SPACE  &mo 6  &kp ESC  &kp ENTER  &kp BSPC
+                          &kp LALT  &kp SPACE  &mo 7  &kp ESC  &kp ENTER  &kp BSPC
             >;
         };
 
@@ -232,7 +262,7 @@
 &kp N4  &kp N7  &trans  &kp ESC  &kp M   &kp T   &trans  &trans  &trans  &trans  &trans  &trans
 &kp N5  &kp N8  &trans  &trans   &none   &kp G   &trans  &trans  &trans  &trans  &trans  &trans
 &kp N6  &kp N9  &trans  &trans   &trans  &kp B   &trans  &trans  &trans  &trans  &trans  &trans
-                        &tog 5   &trans  &trans  &trans  &trans  &trans
+                        &tog 6   &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
