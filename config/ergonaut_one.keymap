@@ -192,9 +192,9 @@
             //                           | SHIFT/DEL | SPC | LWR/TAB |   | ADJ/ESC | RSE/ENT| SHIFT/BackSPACE |
 
             bindings = <
-&mt LG(LS(LA(LCTRL))) LC(V)  &super_key_behavior LG(W) Q  &kp W                          &kp E                        &kp R                            &super_key_behavior LG(LS(Z)) T  &super_key_behavior LG(Y) Y     &super_key_behavior LA(U) U       &kp I                               &super_key_behavior LG(O) O       &kp P     &super_key_behavior LS(LG(T)) LBKT
-&kp LC(C)                    &super_key_behavior LG(A) A  &kp S                          &super_key_behavior LG(D) D  &super_key_behavior LG(LS(F)) F  &kp G                            &super_key_behavior LG(LEFT) H  &super_key_behavior LG(DOWN) J    &super_key_behavior LG(UP_ARROW) K  &super_key_behavior LG(RIGHT) L   &kp SEMI  &kp SQT
-&kp RG(SPACE)                &kp Z                        &hold_tap_advanced LEFT_ALT X  &hold_tap_advanced LCTRL C   &hold_tap_advanced LEFT_SHIFT V  &hold_tap_advanced LEFT_GUI B    &hold_tap_advanced RIGHT_GUI N  &hold_tap_advanced RIGHT_SHIFT M  &hold_tap_advanced RCTRL COMMA      &hold_tap_advanced RIGHT_ALT DOT  &kp FSLH  &kp BSLH
+&mt LG(LS(LA(LCTRL))) LC(V)  &super_key_behavior LG(W) Q  &kp W                          &kp E                        &kp R                            &super_key_behavior LG(LS(Z)) T  &super_key_behavior LG(Y) Y     &super_key_behavior LA(U) U       &kp I                           &super_key_behavior LG(O) O       &kp P     &super_key_behavior LS(LG(T)) LBKT
+&kp LC(C)                    &super_key_behavior LG(A) A  &kp S                          &super_key_behavior LG(D) D  &super_key_behavior LG(LS(F)) F  &kp G                            &kp H                           &kp J                             &kp K                           &kp L                             &kp SEMI  &kp SQT
+&kp RG(SPACE)                &kp Z                        &hold_tap_advanced LEFT_ALT X  &hold_tap_advanced LCTRL C   &hold_tap_advanced LEFT_SHIFT V  &hold_tap_advanced LEFT_GUI B    &hold_tap_advanced RIGHT_GUI N  &hold_tap_advanced RIGHT_SHIFT M  &hold_tap_advanced RCTRL COMMA  &hold_tap_advanced RIGHT_ALT DOT  &kp FSLH  &kp BSLH
                                                                                          &mt LSHIFT DEL               &mt_advanced 4 SPACE             &lt 1 TAB                        &lt 3 ESC                       &lt 2 RET                         &mt RSHIFT BSPC
             >;
         };
