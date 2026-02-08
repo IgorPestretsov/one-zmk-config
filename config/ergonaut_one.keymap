@@ -148,7 +148,7 @@
         mt_advanced: mt_advanced {
             compatible = "zmk,behavior-hold-tap";
             label = "MT_ADVANCED";
-            bindings = <&lt>, <&kp>;
+            bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
@@ -159,10 +159,10 @@
     };
 
     macros {
-        claude_reset: reset {
+        claude_resume: reset {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp FSLH &kp R &kp E &kp S &kp E &kp T>;
+            bindings = <&kp FSLH &kp R &kp E &kp S &kp U &kp M &kp E>;
             label = "RESET";
         };
     };
@@ -232,10 +232,10 @@
 
         macros {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &claude_reset  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans         &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &claude_resume  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans          &trans  &trans  &trans
             >;
         };
 
