@@ -172,6 +172,13 @@
             bindings = <&kp FSLH &kp S &kp T &kp A &kp T &kp U &kp S>;
             label = "CLAUDE_STATUS";
         };
+
+        docker_comp: docker_comp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp D &kp O &kp C &kp K &kp E &kp R &kp MINUS &kp C &kp O &kp M &kp P &kp O &kp S &kp E>;
+            label = "DOCKER_COMP";
+        };
     };
 
     keymap {
@@ -239,10 +246,10 @@
 
         macros {
             bindings = <
-&trans  &trans  &trans          &trans  &trans  &claude_resume  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &claude_status  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans          &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans  &trans  &trans          &trans  &trans  &trans
+&trans  &trans  &trans          &trans        &trans  &claude_resume  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &claude_status  &docker_comp  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans          &trans        &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                &trans        &trans  &trans          &trans  &trans  &trans
             >;
         };
 
