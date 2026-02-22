@@ -246,10 +246,10 @@
 
         macros {
             bindings = <
-&trans  &trans  &trans          &trans        &trans         &claude_resume      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &claude_status  &docker_comp  &kp LA(RIGHT)  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans          &trans        &trans         &kp LA(LEFT_ARROW)  &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans        &trans         &trans              &trans  &trans  &trans
+&trans  &trans  &trans          &trans        &claude_resume  &none               &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &claude_status  &docker_comp  &kp LA(RIGHT)   &trans              &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans          &trans        &trans          &kp LA(LEFT_ARROW)  &trans  &trans  &trans  &trans  &trans  &trans
+                                &trans        &trans          &trans              &trans  &trans  &trans
             >;
         };
 
