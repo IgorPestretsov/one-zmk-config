@@ -127,7 +127,7 @@
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <280>;
+            tapping-term-ms = <240>;
             require-prior-idle-ms = <175>;
             hold-trigger-key-positions = <35>;
             quick-tap-ms = <175>;
@@ -140,7 +140,7 @@
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <280>;
+            tapping-term-ms = <240>;
             require-prior-idle-ms = <200>;
             quick-tap-ms = <175>;
         };
