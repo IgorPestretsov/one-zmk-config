@@ -200,7 +200,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&clear'
   - {t: ▽, type: trans}
   - Alt+LEFT ARROW
   - {t: ▽, type: trans}

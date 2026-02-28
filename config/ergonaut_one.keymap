@@ -176,8 +176,15 @@
         docker_comp: docker_comp {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp D &kp O &kp C &kp K &kp E &kp R &kp MINUS &kp C &kp O &kp M &kp P &kp O &kp S &kp E>;
+            bindings = <&kp D &kp O &kp C &kp K &kp E &kp R &kp MINUS &kp C &kp O &kp M &kp P &kp O &kp S &kp E>;
             label = "DOCKER_COMP";
+        };
+
+        clear: clear {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp L &kp E &kp A &kp R>;
+            label = "CLEAR";
         };
     };
 
@@ -248,7 +255,7 @@
             bindings = <
 &trans  &trans  &trans          &trans        &claude_resume  &none               &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &claude_status  &docker_comp  &kp LA(RIGHT)   &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans          &trans        &trans          &kp LA(LEFT_ARROW)  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans          &clear        &trans          &kp LA(LEFT_ARROW)  &trans  &trans  &trans  &trans  &trans  &trans
                                 &trans        &trans          &trans              &trans  &trans  &trans
             >;
         };
