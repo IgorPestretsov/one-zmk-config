@@ -173,10 +173,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ↹, h: tech}
   macros:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESCAPE
+  - ''
+  - ''
+  - UP ARROW
   - '&claude_resume'
   - ''
   - {t: ▽, type: trans}
@@ -186,13 +186,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&claude_status'
-  - '&docker_comp'
-  - Alt+→
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F6
+  - LEFT ARROW
+  - ↓
+  - →
+  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -200,7 +198,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&clear'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - Alt+LEFT ARROW
   - {t: ▽, type: trans}
