@@ -178,7 +178,7 @@ layers:
   - ''
   - UP ARROW
   - '&claude_resume'
-  - ''
+  - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
