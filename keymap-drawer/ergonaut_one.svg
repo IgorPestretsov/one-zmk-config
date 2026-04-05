@@ -393,23 +393,38 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(84, 105)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">&amp;td_1_11</tspan></text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.9em">Ctl+KP</tspan><tspan x="0" dy="1.2em">1</tspan>
+</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 64%">Alt+Ctl+KP…</tspan></text>
 </g>
 <g transform="translate(140, 91)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">&amp;td_2_12</tspan></text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.9em">Ctl+KP</tspan><tspan x="0" dy="1.2em">2</tspan>
+</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 64%">Ctl+Alt+KP…</tspan></text>
 </g>
 <g transform="translate(196, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">&amp;td_3_13</tspan></text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.9em">Ctl+KP</tspan><tspan x="0" dy="1.2em">3</tspan>
+</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 64%">Ctl+Alt+KP…</tspan></text>
 </g>
 <g transform="translate(252, 91)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">&amp;td_4_14</tspan></text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.9em">Ctl+KP</tspan><tspan x="0" dy="1.2em">4</tspan>
+</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 64%">Ctl+Alt+KP…</tspan></text>
 </g>
 <g transform="translate(308, 98)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">&amp;td_5_15</tspan></text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.9em">Ctl+KP</tspan><tspan x="0" dy="1.2em">5</tspan>
+</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 64%">Ctl+Alt+KP…</tspan></text>
 </g>
 <g transform="translate(532, 98)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -440,23 +455,38 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(84, 161)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">&amp;td_6_16</tspan></text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.9em">Ctl+KP</tspan><tspan x="0" dy="1.2em">6</tspan>
+</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 64%">Ctl+Alt+KP…</tspan></text>
 </g>
 <g transform="translate(140, 147)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">&amp;td_7_17</tspan></text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.9em">Ctl+KP</tspan><tspan x="0" dy="1.2em">7</tspan>
+</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 64%">Ctl+Alt+KP…</tspan></text>
 </g>
 <g transform="translate(196, 140)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">&amp;td_8_18</tspan></text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.9em">Ctl+KP</tspan><tspan x="0" dy="1.2em">8</tspan>
+</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 64%">Ctl+Alt+KP…</tspan></text>
 </g>
 <g transform="translate(252, 147)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">&amp;td_9_19</tspan></text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.9em">Ctl+KP</tspan><tspan x="0" dy="1.2em">9</tspan>
+</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 64%">Alt+Ctl+KP…</tspan></text>
 </g>
 <g transform="translate(308, 154)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;td_10_20</tspan></text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.9em">Ctl+KP</tspan><tspan x="0" dy="1.2em">0</tspan>
+</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 64%">Ctl+Alt+KP…</tspan></text>
 </g>
 <g transform="translate(532, 154)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -724,21 +754,38 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(84, 105)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">Sft+Ctl</tspan><tspan x="0" dy="1.2em">+KP</tspan><tspan x="0" dy="1.2em">1</tspan>
+</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 88%">Meh+KP 1</tspan></text>
 </g>
 <g transform="translate(140, 91)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">Sft+Ctl</tspan><tspan x="0" dy="1.2em">+KP</tspan><tspan x="0" dy="1.2em">2</tspan>
+</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 88%">Meh+KP 2</tspan></text>
 </g>
 <g transform="translate(196, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">Sft+Ctl</tspan><tspan x="0" dy="1.2em">+KP</tspan><tspan x="0" dy="1.2em">3</tspan>
+</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 88%">Meh+KP 3</tspan></text>
 </g>
 <g transform="translate(252, 91)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">Sft+Ctl</tspan><tspan x="0" dy="1.2em">+KP</tspan><tspan x="0" dy="1.2em">4</tspan>
+</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 88%">Meh+KP 4</tspan></text>
 </g>
 <g transform="translate(308, 98)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Alt+Ctl</tspan><tspan x="0" dy="1.2em">+F2</tspan>
+<tspan x="0" dy="-1.2em">Sft+Ctl</tspan><tspan x="0" dy="1.2em">+KP</tspan><tspan x="0" dy="1.2em">5</tspan>
 </text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 88%">Meh+KP 5</tspan></text>
 </g>
 <g transform="translate(532, 98)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -770,24 +817,38 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(84, 161)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">Sft+Ctl</tspan><tspan x="0" dy="1.2em">+KP</tspan><tspan x="0" dy="1.2em">6</tspan>
+</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 88%">Meh+KP 6</tspan></text>
 </g>
 <g transform="translate(140, 147)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">Sft+Ctl</tspan><tspan x="0" dy="1.2em">+KP</tspan><tspan x="0" dy="1.2em">7</tspan>
+</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 88%">Meh+KP 7</tspan></text>
 </g>
 <g transform="translate(196, 140)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">Sft+Ctl</tspan><tspan x="0" dy="1.2em">+KP</tspan><tspan x="0" dy="1.2em">8</tspan>
+</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 88%">Meh+KP 8</tspan></text>
 </g>
 <g transform="translate(252, 147)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Alt+Ctl</tspan><tspan x="0" dy="1.2em">+F4</tspan>
+<tspan x="0" dy="-1.2em">Sft+Ctl</tspan><tspan x="0" dy="1.2em">+KP</tspan><tspan x="0" dy="1.2em">9</tspan>
 </text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 88%">Meh+KP 9</tspan></text>
 </g>
 <g transform="translate(308, 154)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Alt+Ctl</tspan><tspan x="0" dy="1.2em">+F3</tspan>
+<tspan x="0" dy="-1.2em">Sft+Ctl</tspan><tspan x="0" dy="1.2em">+KP</tspan><tspan x="0" dy="1.2em">0</tspan>
 </text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 88%">Meh+KP 0</tspan></text>
 </g>
 <g transform="translate(532, 154)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

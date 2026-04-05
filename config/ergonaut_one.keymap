@@ -214,10 +214,10 @@
             //                                  | TRANS |  TRANS   | TRANS |            | TRANS | TRANS  | TRANS |
 
             bindings = <
-&super_key_behavior LG(LC(P)) LG(P)  &none     &kp LG(F4)  &kp LG(TAB)  &super_key_behavior LG(LS(G)) LG(G)  &super_key_behavior LG(LS(S)) LG(S)  &none   &kp N7  &kp N8    &kp N9  &none    &none
-&super_key_behavior LG(LC(N)) LG(N)  &td_1_11  &td_2_12    &td_3_13     &td_4_14                             &td_5_15                             &none   &kp N4  &kp N5    &kp N6  &kp DOT  &none
-&super_key_behavior LG(LC(I)) LG(I)  &td_6_16  &td_7_17    &td_8_18     &td_9_19                             &td_10_20                            &none   &kp N1  &kp N2    &kp N3  &kp N0   &none
-                                                           &lt 5 TAB    &trans                               &trans                               &trans  &trans  &kp BSPC
+&super_key_behavior LG(LC(P)) LG(P)  &none                                        &kp LG(F4)                                   &kp LG(TAB)                                  &super_key_behavior LG(LS(G)) LG(G)          &super_key_behavior LG(LS(S)) LG(S)          &none   &kp N7  &kp N8    &kp N9  &none    &none
+&super_key_behavior LG(LC(N)) LG(N)  &super_key_behavior LA(LC(KP_N1)) LC(KP_N1)  &super_key_behavior LC(LA(KP_N2)) LC(KP_N2)  &super_key_behavior LC(LA(KP_N3)) LC(KP_N3)  &super_key_behavior LC(LA(KP_N4)) LC(KP_N4)  &super_key_behavior LC(LA(KP_N5)) LC(KP_N5)  &none   &kp N4  &kp N5    &kp N6  &kp DOT  &none
+&super_key_behavior LG(LC(I)) LG(I)  &super_key_behavior LC(LA(KP_N6)) LC(KP_N6)  &super_key_behavior LC(LA(KP_N7)) LC(KP_N7)  &super_key_behavior LC(LA(KP_N8)) LC(KP_N8)  &super_key_behavior LA(LC(KP_N9)) LC(KP_N9)  &super_key_behavior LC(LA(KP_N0)) LC(KP_N0)  &none   &kp N1  &kp N2    &kp N3  &kp N0   &none
+                                                                                                                               &lt 5 TAB                                    &trans                                       &trans                                       &trans  &trans  &kp BSPC
             >;
         };
 
@@ -244,10 +244,10 @@
             //           | TRANS |  GUI   | ace_jump_pycharm |        | TRANS | TRANS  | TRANS |
 
             bindings = <
-&kp GRAVE  &none  &none  &none   &none           &kp LC(LA(F1))  &none     &none     &none      &none      &none       &kp K_VOLUME_UP
-&none      &none  &none  &none   &none           &kp LA(LC(F2))  &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &kp K_NEXT  &kp K_PP
-&kp TILDE  &none  &none  &none   &kp LA(LC(F4))  &kp LA(LC(F3))  &none     &kp HOME  &kp END    &none      &kp K_PREV  &kp K_VOL_DN
-                         &trans  &sk LGUI        &trans          &trans    &trans    &lt 5 TAB
+&kp GRAVE  &none                                                &none                                                &none                                                &none                                                &kp LC(LA(F1))                                       &none     &none     &none      &none      &none       &kp K_VOLUME_UP
+&none      &super_key_behavior LS(LA(LC(KP_N1))) LS(LC(KP_N1))  &super_key_behavior LS(LC(LA(KP_N2))) LS(LC(KP_N2))  &super_key_behavior LS(LA(LC(KP_N3))) LS(LC(KP_N3))  &super_key_behavior LS(LA(LC(KP_N4))) LS(LC(KP_N4))  &super_key_behavior LA(LC(LS(KP_N5))) LS(LC(KP_N5))  &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &kp K_NEXT  &kp K_PP
+&kp TILDE  &super_key_behavior LS(LC(LA(KP_N6))) LS(LC(KP_N6))  &super_key_behavior LS(LA(LC(KP_N7))) LS(LC(KP_N7))  &super_key_behavior LS(LA(LC(KP_N8))) LS(LC(KP_N8))  &super_key_behavior LA(LC(LS(KP_N9))) LS(LC(KP_N9))  &super_key_behavior LA(LC(LS(KP_N0))) LS(LC(KP_N0))  &none     &kp HOME  &kp END    &none      &kp K_PREV  &kp K_VOL_DN
+                                                                                                                     &trans                                               &sk LGUI                                             &trans                                               &trans    &trans    &lt 5 TAB
             >;
         };
 
