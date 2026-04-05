@@ -44,19 +44,19 @@ layers:
   - {t: ⏎, h: raise}
   - {t: ⌫, h: RSHIFT}
   lower:
-  - Gui+P
+  - {t: Gui+Ctl+P, h: Gui+Ctl+P}
   - ''
   - Gui+F4
   - Gui+↹
-  - Gui+G
-  - Gui+S
+  - {t: Gui+G, h: Gui+Ctl+G}
+  - {t: Gui+S, h: Gui+Ctl+S}
   - ''
   - '7'
   - '8'
   - '9'
   - ''
   - ''
-  - Gui+N
+  - {t: Gui+N, h: Gui+Ctl+N}
   - '&td_1_11'
   - '&td_2_12'
   - '&td_3_13'
@@ -68,7 +68,7 @@ layers:
   - '6'
   - .
   - ''
-  - Gui+I
+  - {t: Gui+I, h: Gui+Ctl+I}
   - '&td_6_16'
   - '&td_7_17'
   - '&td_8_18'
