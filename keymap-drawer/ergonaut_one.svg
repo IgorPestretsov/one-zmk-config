@@ -358,12 +358,12 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(252, 35)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Gui+G</text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 78%">Gui+Ctl+G</tspan></text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 78%">Gui+Sft+G</tspan></text>
 </g>
 <g transform="translate(308, 42)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Gui+S</text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 78%">Gui+Ctl+S</tspan></text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 78%">Gui+Sft+S</tspan></text>
 </g>
 <g transform="translate(532, 42)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

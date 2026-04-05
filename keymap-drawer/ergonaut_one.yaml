@@ -48,8 +48,8 @@ layers:
   - ''
   - Gui+F4
   - Gui+↹
-  - {t: Gui+G, h: Gui+Ctl+G}
-  - {t: Gui+S, h: Gui+Ctl+S}
+  - {t: Gui+G, h: Gui+Sft+G}
+  - {t: Gui+S, h: Gui+Sft+S}
   - ''
   - '7'
   - '8'
