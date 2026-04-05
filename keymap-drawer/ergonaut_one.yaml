@@ -44,7 +44,7 @@ layers:
   - {t: ⏎, h: raise}
   - {t: ⌫, h: RSHIFT}
   lower:
-  - {t: Gui+Ctl+P, h: Gui+Ctl+P}
+  - {t: Gui+P, h: Gui+Ctl+P}
   - ''
   - Gui+F4
   - Gui+↹
