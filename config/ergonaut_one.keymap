@@ -254,7 +254,7 @@
         macros {
             bindings = <
 &kp ESCAPE  &none   &none           &kp UP_ARROW  &claude_resume  &kp BACKSPACE       &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &kp F6  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT       &kp ENTER           &trans  &trans  &trans  &trans  &trans  &trans
+&kp F5      &kp F6  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT       &kp ENTER           &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans  &trans          &none         &trans          &kp LA(LEFT_ARROW)  &trans  &trans  &trans  &trans  &trans  &trans
                                     &trans        &trans          &trans              &trans  &trans  &trans
             >;
