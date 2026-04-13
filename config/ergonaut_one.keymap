@@ -139,9 +139,9 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             tapping-term-ms = <240>;
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <150>;
             quick-tap-ms = <175>;
         };
 
